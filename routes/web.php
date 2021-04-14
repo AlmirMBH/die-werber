@@ -58,6 +58,7 @@ Route::get('/applications', [WebController::class, 'applications'])->name('web-a
 Route::get('/hosting', [WebController::class, 'hosting'])->name('web-hosting');
 Route::get('/analysis', [WebController::class, 'analysis'])->name('web-analysis');
 Route::get('/web-prices', [WebController::class, 'prices'])->name('web-analysis');
+Route::get('/webshop', [WebController::class, 'shop'])->name('web-shop');
 
 
 
