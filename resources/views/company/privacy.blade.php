@@ -3,5 +3,5 @@
 @section('content')
 
     {{--    sadrzaj--}}
-    <h1 class="text-center">Hosting</h1>
+    <h1 class="text-center">Privacy</h1>
 @endsection

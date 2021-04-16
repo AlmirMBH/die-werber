@@ -36,6 +36,9 @@ class PagesController extends Controller
         return view('contact');
     }
 
+    public function privacy(){
+        return view('company.privacy');
+    }
 
     public function bus(){
         return view('bus.busprices');
