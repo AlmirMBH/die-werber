@@ -1,14 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>3D Logo</title>
-</head>
-<body>
+@extends('layouts.app')
 
-    <h1>3D Logo</h1>
-</body>
-</html>
+@section('content')
+
+    {{--    sadrzaj--}}
+    <h1 class="text-center">3D Logo</h1>
+@endsection
