@@ -4,79 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <style>
-        /* custom non-Tailwind CSS */
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
-        @media (max-width: 576px) {
-            .content {
-                padding-top: 51px;
-            }
-        }
-
-        @media (min-width: 577px) {
-            .pt-scroll {
-                padding-top: 51px;
-            }
-
-            .nav-sticky {
-                position: fixed!important;
-                min-width: 100%;
-                top: 0;
-                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
-                transition: all .25s ease-in;
-                z-index: 1;
-            }
-        }
-
-        /* HAMBURGER MENU */
-
-        .hamburger {
-            cursor: pointer;
-            width: 48px;
-            height: 48px;
-            transition: all 0.25s;
-        }
-
-        .hamburger__top-bun,
-        .hamburger__bottom-bun {
-            content: '';
-            position: absolute;
-            width: 24px;
-            height: 2px;
-            background: #000;
-            transform: rotate(0);
-            transition: all 0.5s;
-        }
-
-        .hamburger:hover [class*="-bun"] {
-            background: #333;
-        }
-
-        .hamburger__top-bun {
-            transform: translateY(-5px);
-        }
-
-        .hamburger__bottom-bun {
-            transform: translateY(3px);
-        }
-
-        .open {
-            transform: rotate(90deg);
-            transform: translateY(-1px);
-        }
-
-        .open .hamburger__top-bun {
-            transform:
-                rotate(45deg)
-                translateY(0px);
-        }
-
-        .open .hamburger__bottom-bun {
-            transform:
-                rotate(-45deg)
-                translateY(0px);
-        }
-    </style>
     <title>Home</title>
 </head>
 <body class="">
@@ -90,14 +19,16 @@
                 </button>
             </div>
             <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="https://ttntm.me/blog/tailwind-responsive-menu/" target="_blank">About</a>
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#bottom">Features</a>
+                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="{{ route('index') }}">Home</a>
+                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('about') }}">About</a>
+                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('merchandising') }}">Merchandising</a>
+                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#">Services</a>
+                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('portfolio') }}">Portfolio</a>
+                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#">Shops</a>
+                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('contact') }}">Contact</a>
             </div>
         </nav>
     </header>
-
-
-
 
     <main id="app">
         @yield('content')
@@ -110,8 +41,48 @@
 
 
 
-    <footer>
-
+    <footer class="footer py-12">
+        <div class="flex mx-12">
+            <div class="px-4">
+                <div class="company-logo-footer">
+                    <img src="http://die-werber.test/img/dwlogo.png" />
+                </div>
+                <div class="company-info-footer">
+                    <p> We provide our clients with the<br>best and most reliable PR,<br> Marketing and IT solutions in<br> Switzerland. </p>
+                </div>
+            </div>
+            <div class="px-4">
+                <h3 class="text-2xl font-semibold"> Our Services </h3>
+                <div class="my-4 menu-service-footer">
+                    <ul>
+                        <li><a href="{{ route('web-applications') }}" class="font-weight-bolder">Web Development</a></li>
+                        <li><a href="{{ route('graphics-design') }}" class="font-weight-bolder">Graphic design</a></li>
+                        <li><a href="{{ route('video-3d') }}" class="font-weight-bolder">Animation video</a></li>
+                        <li><a href="{{ route('email-medium') }}" class="font-weight-bolder">E-mail marketing</a></li>
+                        <li><a href="{{ route('logo-logo') }}" class="font-weight-bolder">Logo</a></li>
+                        <li><a href="{{ route('bus') }}" class="font-weight-bolder">Bus wrapping</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-4">
+                <h3 class="text-2xl font-semibold"> Our Company </h3>
+                <div class="my-4 menu-company-footer">
+                    <ul>
+                        <li><a href="{{ route('about') }}">About us</a></li>
+                        <li><a href="{{ route('team') }}">Our Team</a></li>
+                        <li><a href="{{ route('questions') }}">FAQ</a></li>
+                        <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-4">
+                <h3 class="text-2xl font-semibold"> Newsletter </h3>
+                <div class="company-info-footer mt-4">
+                    <p> Enter the E-mail below for getting<br> updates, promotions, and product<br> launches. </p>
+                    <input formControlName="email" type="text" class="mt-4">
+                </div>
+            </div>
+        </div>
     </footer>
 
 
