@@ -1,0 +1,39 @@
+.custom-green-dark{
+    background-color: #035851;
+}
+
+.custom-green-transparent{
+    background-color: #126461;
+}
+
+.custom-green-light{
+    background-color: #027366;
+}
+
+.custom-gray{
+    background-color: #FFFFFF;
+}
+
+.custom-black-title{
+    color: #181818;
+}
+.custom-black-paragraph{
+    color: #292225;
+}
+
+
+.custom-red{
+    color: #F25267;
+}
+
+.custom-purple{
+    color: #7635DA;
+}
+
+.custom-green{
+    color: #13CD8F;
+}
+
+.custom-red-gradient{
+    background-image: linear-gradient(70deg, #fe5f55 0%, #801336 100%);
+}
