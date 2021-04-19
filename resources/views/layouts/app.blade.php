@@ -2,12 +2,14 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/general.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/aa9bd40b1d.js"></script>
 
     <title>Home</title>
 
@@ -43,54 +45,80 @@
         </div>
     </main>
 
-    <footer class="footer py-16">
-        <div class="flex justify-around lg:mx-36">
+    <div class="footer py-16">
+        <div class="md:flex mx-auto md:max-w-6xl">
 
-            <div class="footer-logo-slogan lg:mx-8 lg:px-0">
+            <div class="footer-logo-slogan sm:w-full md:w-1/4 lg:px-auto">
                 <div class="footer-logo">
-                    <img src="{{ asset('img/dwlogo.png') }}" class="h-24"/>
+                    <img src="{{ asset('img/dwlogo.png') }}" class="mx-auto h-32" alt=""/>
                 </div>
                 <div class="footer-slogan">
-                    <p class="text-lg font-weight-bolder"> We provide our clients with the<br>best and most reliable PR,<br> Marketing and IT solutions in<br> Switzerland. </p>
+                    <p class="text-lg font-weight-bolder px-10 sm:px-10"> We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland. </p>
                 </div>
             </div>
 
-            <div class="lg:mx-8">
+            <div class="sm:w-full md:w-1/4 ml-10 mt-10 md:mt-3 md:ml-0 lg:px-0">
                 <h3 class="text-2xl font-semibold"> Our Services </h3>
                 <div class="my-4 menu-service-footer">
                     <ul>
-                        <li class="mb-5"><a href="{{ route('web-applications') }}" class="font-weight-bolder">Web Development</a></li>
-                        <li><a href="{{ route('graphics-design') }}" class="font-weight-bolder">Graphic design</a></li>
-                        <li><a href="{{ route('video-3d') }}" class="font-weight-bolder">Animation video</a></li>
-                        <li><a href="{{ route('email-medium') }}" class="font-weight-bolder">E-mail marketing</a></li>
-                        <li><a href="{{ route('logo-logo') }}" class="font-weight-bolder">Logo</a></li>
-                        <li><a href="{{ route('bus') }}" class="font-weight-bolder">Bus wrapping</a></li>
+                        <li class="mb-2"><a href="{{ route('web-applications') }}" class="font-weight-bolder">Web Development</a></li>
+                        <li class="mb-2"><a href="{{ route('graphics-design') }}" class="font-weight-bolder">Graphic design</a></li>
+                        <li class="mb-2"><a href="{{ route('video-3d') }}" class="font-weight-bolder">Animation video</a></li>
+                        <li class="mb-2"><a href="{{ route('email-medium') }}" class="font-weight-bolder">E-mail marketing</a></li>
+                        <li class="mb-2"><a href="{{ route('logo-logo') }}" class="font-weight-bolder">Logo</a></li>
+                        <li class="mb-2"><a href="{{ route('bus') }}" class="font-weight-bolder">Bus wrapping</a></li>
                     </ul>
                 </div>
             </div>
 
-            <div class="lg:mx-8">
+            <div class="sm:w-full md:w-1/4 ml-10 mt-10 md:mt-3 md:ml-0 lg:px-0">
                 <h3 class="text-2xl font-semibold"> Our Company </h3>
                 <div class="menu-company-footer my-4 ">
                     <ul>
-                        <li><a href="{{ route('about') }}" class="font-weight-bolder">About us</a></li>
-                        <li><a href="{{ route('team') }}" class="font-weight-bolder">Our Team</a></li>
-                        <li><a href="{{ route('questions') }}" class="font-weight-bolder">FAQ</a></li>
-                        <li><a href="{{ route('privacy') }}" class="font-weight-bolder">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="{{ route('about') }}" class="font-weight-bolder">About us</a></li>
+                        <li class="mb-2"><a href="{{ route('team') }}" class="font-weight-bolder">Our Team</a></li>
+                        <li class="mb-2"><a href="{{ route('questions') }}" class="font-weight-bolder">FAQ</a></li>
+                        <li class="mb-2"><a href="{{ route('privacy') }}" class="font-weight-bolder">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
 
-            <div class="company-info-newsletter lg:mx-8">
+            <div class="company-info-newsletter sm:w-full md:w-1/6 ml-10 mt-10 md:mt-3 md:ml-0 lg:px-0">
                 <h3 class="text-2xl font-semibold"> Newsletter </h3>
                 <div class="newsletter-subscription mt-4">
-                    <p class="font-weight-bolder"> Enter the E-mail below for getting<br> updates, promotions, and product<br> launches. </p>
+                    <p class="font-weight-bolder"> Enter the E-mail below for getting updates, promotions, and product launches. </p>
                     <input formControlName="email" type="text" class="mt-4">
                 </div>
             </div>
 
         </div>
-    </footer>
+
+    </div>
+<footer>
+    <div class=" custom-green-dark py-1">
+        <div class="custom-green-dark md:flex md:justify-around md:mx-auto md:max-w-7xl py-8">
+            <div class="copyright">
+                <p class="text-white text-center mb-5 md:text-right md:mr-5 md:pt-2">Copyright 2020, DW Die Werber AG. All Rights Reserved.</p>
+            </div>
+
+            <div class="social-media text-center">
+                <ul class="inline-flex">
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/diewerberpfaffikon/"><i class="fa fa-facebook facebook-icon"></i></a>
+                    </li>
+                    <li>
+                        <a class="linkedin" href="https://ba.linkedin.com/company/die-werber?trk=public_profile_topcard_current_company"><i class="fa fa-linkedin linkedin-icon"></i></a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="https://www.instagram.com/diewerber/"><i class="fa fa-instagram instagram-icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 </body>
 </html>
 <script>
