@@ -16,7 +16,7 @@
         </div>
         <div class="flex-1 px-8">
             <div class="img-holder">
-                <img src="{{asset('img/about-who-we-are.png')}}" class="transform scale-75 object-left-top" />
+                <img src="{{asset('img/about-who-we-are.png')}}" class="" />
             </div>
         </div>
     </div>
