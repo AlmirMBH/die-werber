@@ -1,7 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-
-    {{--    sadrzaj--}}
-    <h1 class="text-center">2D Video</h1>
+    <section class="mt-20">
+        <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
+            <div class="flex-1 mt-8 pl-10 p-5">
+                <p class="custom-black text-xl font-semibold mb-5">Animated content grabs attention!</p>
+                <p class="text-base custom-black-paragraph">Video content has a lot of potential to attract attention of your audience and investing a little bit more effort can help your video to go viral. Let us help your brand become a smash hit and get the place in your branch it deserves.</p>
+            </div>
+            <div class="flex-1">
+                <div class="section-image">
+                    <img src="{{asset('img/avideo.gif')}}" alt="3d graphics"/>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
