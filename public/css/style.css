@@ -71,4 +71,9 @@
     background: #027366;
     color: #ffffff;
 }
-
+.footer img {
+    width: 40%;
+}
+.max-w-8xl {
+    max-width: 70rem;
+}
