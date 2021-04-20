@@ -24,7 +24,7 @@ class PagesController extends Controller
     }
 
     public function merchandising(){
-        return view('merchandising');
+        return view('shops.merchandising');
     }
 
 
