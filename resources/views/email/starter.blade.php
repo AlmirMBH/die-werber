@@ -1,6 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
+
+    <section class="mt-20 wide-silver-section bg-gray-100">
+        <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
+            <div class="flex justify-center py-4 wide-section-text">
+                <h1 class="text-5xl text-center font-bold leading-snug text-titleRed">
+                    Get a starter pack<span class="text-titleBlack"> to get <br>
+                started building your </span> brand
+                </h1>
+            </div>
+            <div class="flex justify-center mb-8 ">
+                <span class="line-under-section-title mb-10"></span>
+            </div>
+        </div>
+    </section>
+
     <section class="mt-28">
         <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
             <div class="flex-1 mt-8 pl-10 p-5">
