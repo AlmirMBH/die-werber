@@ -14,13 +14,13 @@
     <title>Home</title>
 
     </head>
-</head>
+
 <body class="font-nunito">
     <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-lg p-2">
         <nav id="site-menu" class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white shadow sm:shadow-none">
             <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
                 <a href="#" class="no-underline py-1"><h1 class="font-bold text-lg tracking-widest"></h1></a>
-                <img src="{{asset('img/dwlogo.png')}}" alt="DW" class="h-12 ">
+                <img src="{{asset('img/die-werber-logo.png')}}" alt="DW" class="h-12 ">
                 <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();">
                     <span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span>
                 </button>
@@ -40,7 +40,7 @@
     <main id="app">
         @yield('content')
 
-        <div class="flex flex-col w-2/3 mx-auto mb-24 tracking-wide">
+        <div class="flex flex-col w-2/3 mx-auto mb-24 mt-24 tracking-wide">
             <a href="#top" id="bottom" class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-red-900 hover:bg-red-900 px-12 py-2">Go to Top</a>
         </div>
     </main>
@@ -50,7 +50,7 @@
 
             <div class="footer-logo-slogan sm:w-full md:w-1/4 lg:px-auto">
                 <div class="footer-logo">
-                    <img src="{{ asset('img/dwlogo.png') }}" class="mx-auto h-32" alt=""/>
+                    <img src="{{ asset('img/die-werber-logo.png') }}" class="mx-auto h-auto" alt=""/>
                 </div>
                 <div class="footer-slogan">
                     <p class="text-lg font-weight-bolder px-10 sm:px-10"> We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland. </p>
