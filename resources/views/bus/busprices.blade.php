@@ -15,6 +15,4 @@
         </div>
     </section>
 
-    {{--    sadrzaj--}}
-    <h1 class="text-center">Bus</h1>
 @endsection

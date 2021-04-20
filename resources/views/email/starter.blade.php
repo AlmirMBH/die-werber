@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <section class="mt-20 wide-silver-section bg-gray-100">
+    <section class="wide-silver-section bg-gray-100">
         <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
             <div class="flex justify-center py-4 wide-section-text">
                 <h1 class="text-5xl text-center font-bold leading-snug text-titleRed">
@@ -55,8 +55,5 @@
             </div>
         </div>
     </section>
-
-
-
 
 @endsection
