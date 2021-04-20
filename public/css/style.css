@@ -67,6 +67,21 @@
         translateY(0px);
 }
 
+.mission-section{
+    background-color: #F7F9FD;
+}
+
+.line-under-section-title{
+    width: 40px;
+    height: 3px;
+    background-color: #F25267;
+    display: block;
+}
+
+.hosting-package-offer{
+    list-style-type: square;
+}
+
 .footer{
     background: #027366;
     color: #ffffff;
