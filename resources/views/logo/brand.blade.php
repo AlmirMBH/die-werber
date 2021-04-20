@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="mt-20">
+
+    <section class="">
         <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
             <div class="flex-1 mt-8 pl-10 p-5">
                 <p class="custom-black text-xl font-semibold mb-5">Imagine your logo on your favorite team's bleachers!</p>
@@ -54,4 +55,5 @@
             </div>
         </div>
     </section>
+
 @endsection
