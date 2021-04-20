@@ -9,6 +9,28 @@
             <h3 class="text-2xl mb-8 font-semibold px-8">Who we are</h3>
             <h4 class="text-lg mb-4 font-medium px-8">We say what we do and we do what we say!</h4>
             <p class="px-8">DieWerber was incorporated in 2017 in Pffäfikon ZH, Switzerland and since 2019 it has its representative
+                office in Sarajevo, Bosnia and Herzegovina. DieWerber consists of a team of qualified and goal-oriented
+                professionals with prominent social and professional competences. Honesty, tolerance, respect, integrity,
+                responsibility and solidarity are our key values, and innovation is an important part of our corporate culture.
+                We are the leading specialists for “our” services and simplicity is our trademark.</p>
+        </div>
+        <div class="flex-1 px-8">
+            <div class="img-holder">
+                <img src="{{asset('img/about-who-we-are.png')}}" class="" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="who-we-are mt-20">
+    <div class="mx-auto max-w-7xl flex flex-col md:flex-row">
+        <div class="flex-1 px-8">
+            <h6 class="text-base mb-4 text-purple-800 px-8">Why choose us</h6>
+            <h3 class="text-2xl mb-8 font-semibold px-8">Who we are</h3>
+            <h4 class="text-lg mb-4 font-medium px-8">We say what we do and we do what we say!</h4>
+            <p class="px-8">DieWerber was incorporated in 2017 in Pffäfikon ZH, Switzerland and since 2019 it has its representative
             office in Sarajevo, Bosnia and Herzegovina. DieWerber consists of a team of qualified and goal-oriented
             professionals with prominent social and professional competences. Honesty, tolerance, respect, integrity,
             responsibility and solidarity are our key values, and innovation is an important part of our corporate culture.
