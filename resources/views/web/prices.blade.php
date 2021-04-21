@@ -2,10 +2,10 @@
 
 @section('content')
 
-    <section class="wide-silver-section bg-gray-100">
+    <section class="wide-silver-section bg-gray-100 pt-16 md:pt-0 md:mt-5">
         <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
             <div class="flex justify-center py-4 wide-section-text">
-                <h1 class="text-5xl text-center font-bold leading-snug text-titleRed">
+                <h1 class="text-5xl text-center font-bold leading-snug text-titleRed px-2 md:px-0 md:w-1/2">
                     Pricing
                 </h1>
             </div>
