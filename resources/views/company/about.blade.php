@@ -2,12 +2,25 @@
 
 @section('content')
 
+    <section class="wide-silver-section bg-gray-100 mt-5 mt-5 pt-16 md:pt-0 md:mt-5">
+        <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
+            <div class="flex justify-center py-4 wide-section-text">
+                <p class="text-5xl text-center font-bold leading-snug text-titleBlack px-2 md:px-0 md:w-1/2">
+                    About<span class="text-titleRed"> Us</span>
+                </p>
+            </div>
+            <div class="flex justify-center mb-8 ">
+                <span class="line-under-section-title mb-10"></span>
+            </div>
+        </div>
+    </section>
+
     <section class="who-we-are">
         <div class="mx-auto max-w-7xl flex flex-col md:flex-row">
             <div class="flex-1 px-8">
-                <h6 class="text-base mb-4 text-purple-800 px-8">Why choose us</h6>
-                <h3 class="text-2xl mb-8 font-semibold px-8">Who we are</h3>
-                <h4 class="text-lg mb-4 font-medium px-8">We say what we do and we do what we say!</h4>
+                <p class="text-base mb-4 text-purple-800 px-8">Why choose us</p>
+                <p class="text-2xl mb-8 font-semibold px-8">Who we are</p>
+                <p class="text-lg mb-4 font-medium px-8">We say what we do and we do what we say!</p>
                 <p class="px-8">DieWerber was incorporated in 2017 in Pffäfikon ZH, Switzerland and since 2019 it has its representative
                     office in Sarajevo, Bosnia and Herzegovina. DieWerber consists of a team of qualified and goal-oriented
                     professionals with prominent social and professional competences. Honesty, tolerance, respect, integrity,
@@ -16,7 +29,7 @@
             </div>
             <div class="flex-1 px-8">
                 <div class="img-holder">
-                    <img src="{{asset('img/about-who-we-are.png')}}" class="" />
+                    <img src="{{asset('img/about-who-we-are.png')}}"  alt="who-we-are"/>
                 </div>
             </div>
         </div>
@@ -36,7 +49,7 @@
             </div>
             <div class="flex-1 px-8">
                 <div class="img-holder">
-                    <img src="{{asset('img/about-who-we-are.png')}}" class="" />
+                    <img src="{{asset('img/about-who-we-are.png')}}" alt="who-we-are" />
                 </div>
             </div>
         </div>
@@ -56,7 +69,7 @@
         <div class="mx-auto max-w-7xl flex flex-col md:flex-row">
             <div class="flex-1 px-8">
                 <div class="img-holder">
-                   <img src="{{asset('img/about-our-mission.png')}}" />
+                   <img src="{{asset('img/about-our-mission.png')}}"  alt="company-mission"/>
                 </div>
             </div>
             <div class="flex-1 px-8">

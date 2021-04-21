@@ -2,21 +2,22 @@
 
 @section('content')
 
-    <section class="">
-        <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
-            <div class="flex-1 mt-8 pl-10 p-5">
-                <p class="custom-black text-xl font-semibold mb-5">Imagine your logo on your favorite team's bleachers!</p>
-                <p class="text-base custom-black-paragraph">Have you ever wondered how your logo would look like on specific promo materials, fair stands or bleachers while your favorite team is playing? There is an easy way to find it out. Let us design your visual identity guidelines and help you conceptualize all the possible ways to utilize your brand identity to advance your business performance.</p>
+    <section class="wide-silver-section bg-gray-100 pt-16 md:pt-0 md:mt-5">
+        <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
+            <div class="flex justify-center py-4 wide-section-text">
+                <p class="text-5xl text-center font-bold leading-snug text-titleRed px-2 md:px-0 md:w-1/2">
+                    Perfect <span class="text-titleBlack"> your </span> visual
+                    <span class="text-titleBlack"> identity <span class="text-titleRed">to perfect</span> your
+                    </span> business performance
+                </p>
             </div>
-            <div class="flex-1">
-                <div class="section-image">
-                    <img src="{{asset('img/brand.png')}}" alt="brand"/>
-                </div>
+            <div class="flex justify-center mb-8">
+                <span class="line-under-section-title mb-10"></span>
             </div>
         </div>
     </section>
 
-    <section class="mt-28">
+    <section>
         <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
             <div class="flex-1 mt-8 pl-10 p-5">
                 <p class="custom-black text-xl font-semibold mb-5">Imagine your logo on your favorite team's bleachers!</p>
