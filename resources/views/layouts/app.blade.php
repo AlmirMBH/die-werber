@@ -10,9 +10,88 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/aa9bd40b1d.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <title>Home</title>
+    <style>.nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
 
+        .nav {
+            text-align: center;
+        }
+
+        .nav ul {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+        }
+
+        .nav ul li {
+            position: relative;
+            float: left;
+        }
+
+        .nav ul li + li {
+            margin-left: 1px;
+        }
+
+        .nav ul li a {
+            background: #ffffff;
+            display: inline-block;
+            color: #000000;
+            text-decoration: none;
+            padding: 11px 20px;
+            -webkit-transition: all 0.1s ease-in;
+            -o-transition: all 0.1s ease-in;
+            transition: all 0.1s ease-in;
+        }
+
+        .nav ul li a:hover {
+            background: #ffffff;
+        }
+
+        .nav ul li > ul {
+            display: none;
+            position: absolute;
+            width: 150px;
+            top: 100%;
+            left: -1px;
+            z-index: 1;
+            text-align: left;
+        }
+
+        .nav ul li > ul li {
+            float: none;
+            margin: 0;
+        }
+
+        .nav ul li > ul li a {
+            display: block;
+            /*border-top: 1px solid #555;*/
+        }
+
+        .nav ul li > ul li a:hover {
+            border-top: 1px solid #646464;
+            background: #ffffff;
+        }
+
+        .nav ul li:hover a, .nav ul li.active a {
+            background: #ffffff;
+        }
+
+        .nav ul li.active {
+            pointer-events: none;
+        }
+
+        .nav ul li > ul li > ul li{
+            float: none;
+            left: 100%;
+            margin-top: 0px
+        }
+    </style>
     </head>
 
 <body class="font-nunito">
@@ -25,15 +104,90 @@
                     <span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span>
                 </button>
             </div>
-            <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2" href="{{ route('index') }}">Home</a>
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('about') }}">About</a>
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('merchandising') }}">Merchandising</a>
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#">Services</a>
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('portfolio') }}">Portfolio</a>
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="#">Shops</a>
-                <a class="text-dark font-bold hover:text-red text-lg w-full no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2" href="{{ route('contact') }}">Contact</a>
-            </div>
+
+
+            <nav class="nav">
+                <ul class="navigation">
+                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="javascript:void(0);">Company<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li><a href="{{ route('team') }}">Our Team</a></li>
+                            <li><a href="{{ route('questions') }}">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);">Services<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="">Web development</a>
+                                <ul>
+                                    <li><a href="{{ route('web-applications') }}">Web Applications</a></li>
+                                    <li><a href="{{ route('web-design') }}">Web design</a></li>
+                                    <li><a href="{{ route('web-shop') }}">Webshop</a></li>
+                                    <li><a href="{{ route('web-hosting') }}">Web hosting</a></li>
+                                    <li><a href="{{ route('web-prices') }}">Price list</a></li>
+                                    <li><a href="{{ route('web-analysis') }}">Website analysis</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Graphic Design</a>
+                                <ul>
+                                    <li><a href="{{ route('graphics-design') }}">Graphic Design</a></li>
+                                    <li><a href="{{ route('graphics-print') }}">Print Materials</a></li>
+                                    <li><a href="{{ route('graphics-illustrations') }}">Illustrations</a></li>
+                                    <li><a href="{{ route('graphics-3d') }}">3D Modelling</a></li>
+                                </ul>
+                            </li>
+                            <li class="services"><a href="#">Animation Video</a>
+                                <ul>
+                                    <li><a href="{{ route('video-voice') }}">Voice Samples</a></li>
+                                    <li><a href="{{ route('video-2d') }}">2D Animation</a></li>
+                                    <li><a href="{{ route('video-3d') }}">3D Animation</a></li>
+                                    <li><a href="{{ route('video-whiteboard') }}">Whiteboard Drawings</a></li>
+                                    <li><a href="{{ route('video-prices') }}">Prices</a></li>
+                                </ul>
+                            </li>
+                            <li class="services"><a href="#">Email marketing</a>
+                                <ul>
+                                    <li><a href="{{ route('email-starter') }}">Starter</a></li>
+                                    <li><a href="{{ route('email-medium') }}">Medium</a></li>
+                                    <li><a href="{{ route('email-advanced') }}">Advanced</a></li>
+                                    <li><a href="{{ route('email-special') }}">Special</a></li>
+                                </ul>
+                            </li>
+                            <li class="services"><a href="#">Logo</a>
+                                <ul>
+                                    <li><a href="{{ route('logo-logo') }}">Logo Design</a></li>
+                                    <li><a href="{{ route('logo-3d') }}">3D Logo</a></li>
+                                    <li><a href="{{ route('logo-animation') }}">Logo Animation</a></li>
+                                    <li><a href="{{ route('logo-brand') }}">Visual Identity</a></li>
+                                </ul>
+                            </li>
+                            <li class="services"><a href="#">Bus wrapping</a>
+                                <ul>
+                                    <li><a href="{{ route('bus') }}">Price list</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                    <li><a href="#">Shops</a></li>
+                    <li><a href="{{ route('contact') }}">Contact</a></li>
+                </ul>
+            </nav>
+
+            <script>
+                $(".navigation li").hover(function() {
+                    var isHovered = $(this).is(":hover");
+                    if (isHovered) {
+                        $(this).children("ul").stop().slideDown(300);
+                            } else {
+                        $(this).children("ul").stop().slideUp(300);
+                    }
+                });
+            </script>
+
+
+
+
         </nav>
     </header>
 
