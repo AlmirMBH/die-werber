@@ -13,85 +13,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <title>Home</title>
-    <style>.nav ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        .nav {
-            text-align: center;
-        }
-
-        .nav ul {
-            display: inline-block;
-            vertical-align: top;
-            font-size: 14px;
-        }
-
-        .nav ul li {
-            position: relative;
-            float: left;
-        }
-
-        .nav ul li + li {
-            margin-left: 1px;
-        }
-
-        .nav ul li a {
-            background: #ffffff;
-            display: inline-block;
-            color: #000000;
-            text-decoration: none;
-            padding: 11px 20px;
-            -webkit-transition: all 0.1s ease-in;
-            -o-transition: all 0.1s ease-in;
-            transition: all 0.1s ease-in;
-        }
-
-        .nav ul li a:hover {
-            background: #ffffff;
-        }
-
-        .nav ul li > ul {
-            display: none;
-            position: absolute;
-            width: 150px;
-            top: 100%;
-            left: -1px;
-            z-index: 1;
-            text-align: left;
-        }
-
-        .nav ul li > ul li {
-            float: none;
-            margin: 0;
-        }
-
-        .nav ul li > ul li a {
-            display: block;
-            /*border-top: 1px solid #555;*/
-        }
-
-        .nav ul li > ul li a:hover {
-            border-top: 1px solid #646464;
-            background: #ffffff;
-        }
-
-        .nav ul li:hover a, .nav ul li.active a {
-            background: #ffffff;
-        }
-
-        .nav ul li.active {
-            pointer-events: none;
-        }
-
-        .nav ul li > ul li > ul li{
-            float: none;
-            left: 100%;
-            margin-top: 0px
-        }
-    </style>
     </head>
 
 <body class="font-nunito">
@@ -105,89 +26,73 @@
                 </button>
             </div>
 
-
-            <nav class="nav">
-                <ul class="navigation">
-                    <li><a href="{{ route('index') }}">Home</a></li>
-                    <li><a href="javascript:void(0);">Company<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                        <ul>
-                            <li><a href="{{ route('about') }}">About Us</a></li>
-                            <li><a href="{{ route('team') }}">Our Team</a></li>
-                            <li><a href="{{ route('questions') }}">FAQ</a></li>
+                    <div id="menu" class="w-full sm:w-auto self-end sm:self-center sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0 hidden">
+                        <ul class="menu-items">
+                            <li><a href="{{route('index')}}">Home</a></li>
+                            <li><a href="">Company <span class="arrow arrowDown"></span></a>
+                                <ul class="sub">
+                                    <li><a href="{{route('about')}}">About</a></li>
+                                    <li><a href="{{route('team')}}">Team</a></li>
+                                    <li><a href="{{route('questions')}}">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Services <span class="arrow arrowDown"></span></a>
+                                <ul class="sub">
+                                    <li><a href="">Web development <span class="arrow arrowRight"></span></a>
+                                        <ul class="super-sub">
+                                            <li><a href="{{route('web-applications')}}">Web Applications</a></li>
+                                            <li><a href="{{route('web-design')}}">Web Design</a></li>
+                                            <li><a href="{{route('web-shop')}}">Webshops</a></li>
+                                            <li><a href="{{route('web-hosting')}}">Web Hosting</a></li>
+                                            <li><a href="{{route('web-analysis')}}">Website Analysis</a></li>
+                                            <li><a href="{{route('web-prices')}}">Price List</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Graphic Design <span class="arrow arrowRight"></span></a>
+                                        <ul class="super-sub">
+                                            <li><a href="{{route('graphics-design')}}">Graphic Design</a></li>
+                                            <li><a href="{{route('graphics-print')}}">Print Materials</a></li>
+                                            <li><a href="{{route('graphics-illustrations')}}">Illustrations</a></li>
+                                            <li><a href="{{route('graphics-3d')}}">3D Modelling</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Animation video <span class="arrow arrowRight"></span></a>
+                                        <ul class="super-sub">
+                                            <li><a href="{{route('video-voice')}}">Voice Samples</a></li>
+                                            <li><a href="{{route('video-2d')}}">2D Animations</a></li>
+                                            <li><a href="{{route('video-3d')}}">3D Animation</a></li>
+                                            <li><a href="{{route('video-whiteboard')}}">Whiteboard Drawing</a></li>
+                                            <li><a href="{{route('video-prices')}}">Price List</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Email Marketing <span class="arrow arrowRight"></span></a>
+                                        <ul class="super-sub">
+                                            <li><a href="{{route('email-starter')}}">Starter</a></li>
+                                            <li><a href="{{route('email-medium')}}">Medium</a></li>
+                                            <li><a href="{{route('email-advanced')}}">Advanced</a></li>
+                                            <li><a href="{{route('email-special')}}">Special</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Logo <span class="arrow arrowRight"></span></a>
+                                        <ul class="super-sub">
+                                            <li><a href="{{route('logo-logo')}}">Logo Design</a></li>
+                                            <li><a href="{{route('logo-3d')}}">3D Logo</a></li>
+                                            <li><a href="{{route('logo-animation')}}">Logo Animation</a></li>
+                                            <li><a href="{{route('logo-brand')}}">Visual Identity</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Bus Wrapping <span class="arrow arrowRight"></span></a>
+                                        <ul class="super-sub">
+                                            <li><a href="{{route('bus')}}">Price List</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="{{route('portfolio')}}">Portfolio</a></li>
+                            <li><a href="">Shops</a></li>
+                            <li><a href="{{route('contact')}}">Contact</a></li>
                         </ul>
-                    </li>
-                    <li><a href="javascript:void(0);">Services<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                        <ul>
-                            <li><a href="">Web development</a>
-                                <ul>
-                                    <li><a href="{{ route('web-applications') }}">Web Applications</a></li>
-                                    <li><a href="{{ route('web-design') }}">Web design</a></li>
-                                    <li><a href="{{ route('web-shop') }}">Webshop</a></li>
-                                    <li><a href="{{ route('web-hosting') }}">Web hosting</a></li>
-                                    <li><a href="{{ route('web-prices') }}">Price list</a></li>
-                                    <li><a href="{{ route('web-analysis') }}">Website analysis</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Graphic Design</a>
-                                <ul>
-                                    <li><a href="{{ route('graphics-design') }}">Graphic Design</a></li>
-                                    <li><a href="{{ route('graphics-print') }}">Print Materials</a></li>
-                                    <li><a href="{{ route('graphics-illustrations') }}">Illustrations</a></li>
-                                    <li><a href="{{ route('graphics-3d') }}">3D Modelling</a></li>
-                                </ul>
-                            </li>
-                            <li class="services"><a href="#">Animation Video</a>
-                                <ul>
-                                    <li><a href="{{ route('video-voice') }}">Voice Samples</a></li>
-                                    <li><a href="{{ route('video-2d') }}">2D Animation</a></li>
-                                    <li><a href="{{ route('video-3d') }}">3D Animation</a></li>
-                                    <li><a href="{{ route('video-whiteboard') }}">Whiteboard Drawings</a></li>
-                                    <li><a href="{{ route('video-prices') }}">Prices</a></li>
-                                </ul>
-                            </li>
-                            <li class="services"><a href="#">Email marketing</a>
-                                <ul>
-                                    <li><a href="{{ route('email-starter') }}">Starter</a></li>
-                                    <li><a href="{{ route('email-medium') }}">Medium</a></li>
-                                    <li><a href="{{ route('email-advanced') }}">Advanced</a></li>
-                                    <li><a href="{{ route('email-special') }}">Special</a></li>
-                                </ul>
-                            </li>
-                            <li class="services"><a href="#">Logo</a>
-                                <ul>
-                                    <li><a href="{{ route('logo-logo') }}">Logo Design</a></li>
-                                    <li><a href="{{ route('logo-3d') }}">3D Logo</a></li>
-                                    <li><a href="{{ route('logo-animation') }}">Logo Animation</a></li>
-                                    <li><a href="{{ route('logo-brand') }}">Visual Identity</a></li>
-                                </ul>
-                            </li>
-                            <li class="services"><a href="#">Bus wrapping</a>
-                                <ul>
-                                    <li><a href="{{ route('bus') }}">Price list</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                    <li><a href="#">Shops</a></li>
-                    <li><a href="{{ route('contact') }}">Contact</a></li>
-                </ul>
-            </nav>
-
-            <script>
-                $(".navigation li").hover(function() {
-                    var isHovered = $(this).is(":hover");
-                    if (isHovered) {
-                        $(this).children("ul").stop().slideDown(300);
-                            } else {
-                        $(this).children("ul").stop().slideUp(300);
-                    }
-                });
-            </script>
-
-
-
-
+                    </div>
         </nav>
     </header>
 
