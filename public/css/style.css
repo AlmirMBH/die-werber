@@ -67,6 +67,81 @@
         translateY(0px);
 }
 
+/*MENU START*/
+#menu .menu-items>li{
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ffffff;
+    width: 120px;
+}
+
+#menu a{
+    margin: 0;
+    text-align: left;
+    padding: 12px 15px 12px 15px;
+    position: relative;
+    display: block;
+    background-color: #ffffff
+}
+
+#menu li:hover>a{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#menu .sub, #menu .super-sub{
+    position: absolute;
+    display: none;
+}
+
+#menu .sub{
+    padding-top: 15px;
+}
+
+#menu .sub ul{
+
+}
+
+#menu .sub li{
+    position: relative;
+    border-bottom: 1px lightgray solid;
+    width: 180px;
+}
+
+#menu .super-sub{
+    top:0;
+    right:0;
+    transform: translate(100%, 0);
+}
+
+#menu .menu-items>li:hover .sub,
+#menu .sub>li:hover>.super-sub{
+    display: block !important;
+}
+
+#menu .arrow{
+    display: inline-block;
+    border: 2px solid lightgray;
+    width: 8px;
+    height: 8px;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    right: 0;
+    margin-left: 10px;
+}
+
+#menu .arrow.arrowDown{
+    transform: rotateZ(135deg) translate(0px, 3px);
+}
+
+#menu .arrow.arrowRight{
+    transform: rotateZ(45deg);
+}
+
+/*MENU END*/
+
+
 .mission-section{
     background-color: #F7F9FD;
 }
