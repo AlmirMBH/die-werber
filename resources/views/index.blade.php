@@ -3,28 +3,49 @@
 @section('content')
 
     <section class="pb-36 pt-24">
-        <div class="mx-auto flex flex-row max-w-6xl">
-            <div class="flex-1 bg-gradient-to-b from-purple-400 to-pink-200 shadow-lg m-4">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl md:divide-x-2 md:divide-purple-400">
+            <div class="md:w-2/6 m-4">
+                <p class="font-semibold md:text-right text-2xl pr-4 md:py-20 "> How we do it?</p>
+            </div>
+            <div class="md:w-3/6 m-4">
+                <p class="break-words md:pl-4 text-lg text-justify" >After we have analyzed your vision and mission,
+                 understood your goals, and learned about your clients needs, we build your brand identity from scratch.
+                 If you already have your brand identity but you are not satisfied with it, let us help you
+                 re-brand your business. Our services include consulting, graphic & web design, web development,
+                 search engine optimization, social media management and E-mail marketing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-36">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
+            <div class="flex-1 sm:mx-20 md:mx-4 bg-gradient-to-b from-purple-400 to-pink-200 shadow-lg m-4">
                 <div class="service-info-block text-center px-10 py-12 ">
-                    <img src="" class="object object-center" alt="home-design"/>
+                    <div class="flex justify-center mb-6">
+                        <img src="{{asset('img/home-development.png')}}" alt="home-box-development">
+                    </div>
                     <h1 class="text-lg mb-7 text-white">Design</h1>
                     <p class="text-justify text-white"> As the difference between virtual and real world is slowly disappearing, businesses are under
                     increasing pressure to remain competitive. Let us design your clients
                     virtual experience and merging your activities with their everyday lives. </p>
                 </div>
             </div>
-            <div class="flex-1 bg-gradient-to-b from-purple-400 to-pink-200 shadow-lg m-4">
+            <div class="flex-1 sm:mx-20 md:mx-4 bg-gradient-to-b from-purple-400 to-pink-200 shadow-lg m-4">
                 <div class="service-info-block text-center px-10 py-12 ">
-                    <img src="" class="object object-center" alt="home-development"/>
+                    <div class="flex justify-center mb-6">
+                        <img src="{{asset('img/home-design.png')}}" alt="home-box-design">
+                    </div>
                     <h1 class="text-lg mb-7 text-white">Development</h1>
                     <p class="text-justify text-white"> Improving your online standing and presence is not an easy task and we know it.
                     Let us usethe cutting-edge technologies to build the best and most efficient digital experience for
                     your clients that will make your company look modern and unique. </p>
                 </div>
             </div>
-            <div class="flex-1 bg-gradient-to-b from-purple-400 to-pink-200 shadow-lg m-4">
+            <div class="flex-1 sm:mx-20 md:mx-4 bg-gradient-to-b from-purple-400 to-pink-200 shadow-lg m-4">
                 <div class="service-info-block text-center px-10 py-12 ">
-                    <img src="" class="object object-center" alt="home-marketing"/>
+                    <div class="flex justify-center mb-6">
+                        <img src="{{asset('img/home-marketing.png')}}" alt="home-box-marketing">
+                    </div>
                     <h1 class="text-lg mb-7 text-white">Marketing</h1>
                     <p class="text-justify text-white"> Reaching your clients can sometimes be anything but easy, and
                     although the first contact with a new client might not bring about success, there is often no
@@ -36,20 +57,33 @@
 
     <section class="pt-40 pb-60 bg-green-400">
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
-            <div class="text-center text-white mb-10">
+            <div class="text-center text-white mb-20">
                 <h1 class="text-base mb-2.5">Ready to grow</h1>
                 <h1 class="text-4xl font-semibold">See how we can help you!</h1>
             </div>
         </div>
+        <div class="mx-auto flex flex-row max-w-6xl justify-center mb-12">
+            <div class="mx-auto flex flex-col md:flex-row shadow-lg  form text-center text-white border border-white rounded-r-2xl rounded-l-2xl text-white">
+                <div class="flex-1">
+                <input type="text" id="web" name="web" placeholder="WEB Url*" class="placeholder-opacity-75 bg-transparent placeholder-white px-8 py-4 focus:outline-none">
+                </div>
+                <div class="flex-1">
+                <input type="text" id="email" name="email" placeholder="Email Addresse*" class="placeholder-opacity-75 bg-transparent text-white placeholder-white px-8 py-4 focus:outline-none">
+                </div>
+                <div class="flex-1 rounded-b-2xl sm:rounded-r-2xl bg-green-900 px-8">
+                <input type="submit" value="Submit" class="px-8 py-4 bg-green-900 ">
+                </div>
+            </div>
+        </div>
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
-            <div class="text-center text-white mb-10">
-                <h1 class="text-base mb-2.5">TO DO</h1>
+            <div class="text-center text-white mb-20">
+                <p class="text-green-900 text-base mb-2.5">Please check our <a class="text-white" href="">Privacy Policy</a> to find out how we manage and protect your data.</h1>
             </div>
         </div>
     </section>
 
-    <section class="home-development py-24">
-        <div class="mx-auto flex flex-row max-w-6xl">
+    <section class="home-web-development py-24">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Development<h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Web & App</span> <span class="text-titleRed">Development</span></h1>
@@ -85,8 +119,8 @@
         </div>
     </section>
 
-    <section class="graphic-design py-24">
-        <div class="mx-auto flex flex-row max-w-6xl">
+    <section class="home-graphic-design py-24">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 mx-auto flex-col">
                 <div class="flex justify-center">
                     <img src="{{asset('img/home-graphic-design.png')}}" alt="home-graphic-design">
@@ -94,7 +128,7 @@
             </div>
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Design<h1>
-                <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Web & App</span> <span class="text-titleRed">Development</span></h1>
+                <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Graphic</span> <span class="text-titleRed">Design</span></h1>
                     <section>
                         <div class="mx-auto flex flex-row mb-8">
                             <div class="flex-1 pr-6 text-justify">
@@ -122,8 +156,8 @@
         </div>
     </section>
 
-    <section class="home-development py-24">
-        <div class="mx-auto flex flex-row max-w-6xl">
+    <section class="home-animation-video py-24">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Video<h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Animation</span> <span class="text-titleRed">Video</span></h1>
@@ -159,8 +193,8 @@
         </div>
     </section>
 
-    <section class="graphic-design py-24">
-        <div class="mx-auto flex flex-row max-w-6xl">
+    <section class="home-email-marketing py-24">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 mx-auto flex-col">
                 <div class="flex justify-center">
                     <img src="{{asset('img/home-email-marketing.png')}}" alt="home-email-marketing">
@@ -196,8 +230,8 @@
         </div>
     </section>
 
-    <section class="home-development py-24">
-        <div class="mx-auto flex flex-row max-w-6xl">
+    <section class="home-logo-design py-24">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Marketing<h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Logo</span> <span class="text-titleRed">Design</span></h1>
@@ -233,8 +267,8 @@
         </div>
     </section>
 
-    <section class="graphic-design py-24">
-        <div class="mx-auto flex flex-row max-w-6xl">
+    <section class="home-bus-wrapping py-24">
+        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 mx-auto flex-col">
                 <div class="flex justify-center">
                     <img src="{{asset('img/home-bus-wrapping.png')}}" alt="home-bus-wrapping">
@@ -242,7 +276,7 @@
             </div>
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Design<h1>
-                <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Web & App</span> <span class="text-titleRed">Development</span></h1>
+                <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Bus</span> <span class="text-titleRed">Wrapping</span></h1>
                     <section>
                         <div class="mx-auto flex flex-row mb-8">
                             <div class="flex-1 pr-6 text-justify">
@@ -280,6 +314,7 @@
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
             <div class="text-center text-white mb-10">
                 <h1 class="text-base mb-2.5">TO DO</h1>
+
             </div>
         </div>
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
@@ -305,7 +340,7 @@
                     <h1 class="text-3xl font-semibold text-titleBlack">Web development</h1>
                 </div>
             </div>
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
+            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
                 <div class="flex-1 px-6 text-justify">
                     <div class="flex-1 px-6 justify-center">
                         <div class="flex justify-center">
@@ -345,7 +380,7 @@
                     <h1 class="text-3xl font-semibold text-titleBlack">Graphic design</h1>
                 </div>
             </div>
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
+            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
                 <div class="flex-1 px-6 text-justify">
                     <div class="flex-1 px-6 justify-center">
                         <div class="flex justify-center">
@@ -385,7 +420,7 @@
                     <h1 class="text-3xl font-semibold text-titleBlack">Animation video</h1>
                 </div>
             </div>
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
+            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
                 <div class="flex-1 px-6 text-justify">
                     <div class="flex-1 px-6 justify-center">
                         <div class="flex justify-center">
@@ -425,7 +460,7 @@
                     <h1 class="text-3xl font-semibold text-titleBlack">Email marketing</h1>
                 </div>
             </div>
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
+            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
                 <div class="flex-1 px-6 text-justify">
                     <div class="flex-1 px-6 justify-center">
                         <div class="flex justify-center">
@@ -465,7 +500,7 @@
                     <h1 class="text-3xl font-semibold text-titleBlack">Logo Design</h1>
                 </div>
             </div>
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
+            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
                 <div class="flex-1 px-6 text-justify">
                     <div class="flex-1 px-6 justify-center">
                         <div class="flex justify-center">
