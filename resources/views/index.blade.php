@@ -63,15 +63,15 @@
             </div>
         </div>
         <div class="mx-auto flex flex-row max-w-6xl justify-center mb-12">
-            <div class="mx-auto flex flex-col md:flex-row shadow-lg  form text-center text-white border border-white rounded-r-2xl rounded-l-2xl text-white">
-                <div class="flex-1">
-                <input type="text" id="web" name="web" placeholder="WEB Url*" class="placeholder-opacity-75 bg-transparent placeholder-white px-8 py-4 focus:outline-none">
+            <div class="mx-auto flex flex-col w-8/12 md:w-10/12 md:flex-row shadow-lg  form text-center text-white border border-white rounded-r-2xl rounded-l-2xl text-white">
+                <div class="md:w-2/5">
+                <input type="text" id="web" name="web" placeholder="WEB Url*" class="placeholder-opacity-75 bg-transparent placeholder-white py-4 w-full pl-4 focus:outline-none text-center">
                 </div>
-                <div class="flex-1">
-                <input type="text" id="email" name="email" placeholder="Email Addresse*" class="placeholder-opacity-75 bg-transparent text-white placeholder-white px-8 py-4 focus:outline-none">
+                <div class="md:w-2/5">
+                <input type="text" id="email" name="email" placeholder="Email Addresse*" class="placeholder-opacity-75 bg-transparent placeholder-white py-4 w-full pl-4 focus:outline-none text-center">
                 </div>
-                <div class="flex-1 rounded-b-2xl sm:rounded-r-2xl bg-green-900 px-8">
-                <input type="submit" value="Submit" class="px-8 py-4 bg-green-900 ">
+                <div class="md:w-1/4 rounded-b-2xl md:rounded-r-2xl md:rounded-l-none bg-green-900 ">
+                <input type="submit" value="Submit" class="py-4 bg-green-900 ">
                 </div>
             </div>
         </div>
@@ -311,15 +311,23 @@
                 <h1 class="text-4xl font-semibold">Our working process</h1>
             </div>
         </div>
-        <div class="mx-auto flex flex-row max-w-6xl justify-center">
-            <div class="text-center text-white mb-10">
-                <h1 class="text-base mb-2.5">TO DO</h1>
-
+        <div class="mx-auto flex flex-row max-w-6xl my-10">
+            <div class="text-center text-white flex-1">
+                <h1 class="text-base">Research</h1>
+            </div>
+            <div class="text-center text-white flex-1">
+                <h1 class="text-base">Planing</h1>
+            </div>
+            <div class="text-center text-white flex-1">
+                <h1 class="text-base">Implementing</h1>
+            </div>
+            <div class="text-center text-white flex-1">
+                <h1 class="text-base">Results</h1>
             </div>
         </div>
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
-            <div class="text-center text-white mb-10">
-                <p class="text-base px-72 font-light" >After determining your requirements, we undertake a creative and
+            <div class="text-center text-white mb-10 md:w-2/4 mx-2 md:mx-0">
+                <p class="text-base font-light text-justify" >After determining your requirements, we undertake a creative and
                  systematic, but often hectic and passionate research to increase the pool of knowledge about our
                  task and your corporate culture, vision, mission and clients.</p>
             </div>
