@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', '3D Animations')
 @section('content')
     @php
         $title = "<span class='text-titleBlack'>Give your video </span> the third dimension <span class='text-titleBlack'> to give your business </span> a dimension of attraction";

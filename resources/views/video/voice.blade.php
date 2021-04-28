@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Voice Test')
 @section('content')
     @php
         $title = "Your business voice <span class='text-titleBlack'> is the reflection of </span> your own voice";

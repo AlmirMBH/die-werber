@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Visual Identity')
 @section('content')
     @php
         $title = "Perfect <span class='text-titleBlack'> your </span> visual <span class='text-titleBlack'> identity <span class='text-titleRed'>to perfect</span> your </span> business performance";

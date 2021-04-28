@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Prices')
 @section('content')
     @php
         $title = "Prices";

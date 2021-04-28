@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Email Advanced')
 @section('content')
     @php
         $title = "Advance <span class='text-titleBlack'> your </span> E-mail marketing <span class='text-titleBlack'> to advance your </span> client basis";
