@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Team')
 @section('content')
 
     <section class="wide-silver-section bg-gray-100 mt-5 pt-16 md:pt-0 md:mt-5">

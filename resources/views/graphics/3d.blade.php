@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', '3D Modeling')
 @section('content')
     @php
         $title = "Model <span class='text-titleBlack'> your </span> content <span class='text-titleBlack'> to model </span> your public image";

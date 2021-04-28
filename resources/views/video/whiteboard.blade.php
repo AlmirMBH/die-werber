@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Whiteboard')
 @section('content')
     @php
         $title = "Draw <span class='text-titleBlack'> your </span> business processes <span class='text-titleBlack'>to draw your</span> way to new clients";

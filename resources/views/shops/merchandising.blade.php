@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Merchandising')
 @section('content')
 
     {{--    sadrzaj--}}

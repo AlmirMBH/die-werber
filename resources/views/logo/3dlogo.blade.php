@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', '3D Logo')
 @section('content')
     @php
         $title = "Improve <span class='text-titleBlack'> your </span> logo <span class='text-titleBlack'>to improve your</span> recognition";

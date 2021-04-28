@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Email Starter')
 @section('content')
     @php
         $title = "Get a starter pack<span class='text-titleBlack'> to get started building your </span> brand";

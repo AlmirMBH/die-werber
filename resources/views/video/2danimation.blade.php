@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', '2D Animations')
 @section('content')
     @php
         $title = "Animate <span class='text-titleBlack'> your video content to animate </span> your clients";
