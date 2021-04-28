@@ -3,7 +3,6 @@
 @section('content')
     @php
         $title = "Advance <span class='text-titleBlack'> your </span> E-mail marketing <span class='text-titleBlack'> to advance your </span> client basis";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $topSectionTitle = "Every E-mail takes you one step closer to understanding what your clients like…";
         $topSectionText = "We all know that E-mails are a great means of communication, but we hardly ever think about them as surveys.
         All the E-mails you send to your audience can be your questionnaires that tell you who your audience is and what your clients expect from you.
@@ -21,7 +20,7 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection
 

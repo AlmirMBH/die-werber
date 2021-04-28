@@ -9,7 +9,6 @@
         intricate details of your event or product.";
         $topSectionImage = "graphic-design-3d-info.png";
         $topSectionAlt = "graphic-design-3d-info";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $bottomSectionTitle = "3D Modeling";
         $bottomSectionText = "Are you constructing buildings, organizing parties or decorating offices? You do not have to be concerned about it any more.
         Let us help you visualize your projects months ahead of their deadlines. Our 3D models will provide you with the opportunity to make all the changes
@@ -20,6 +19,6 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection

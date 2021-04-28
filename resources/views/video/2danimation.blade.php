@@ -1,58 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
+    @php
+        $title = "Animate <span class='text-titleBlack'> your video content to animate </span> your clients";
+        $topSectionTitle = "Animated content grabs attention!";
+        $topSectionText = "Video content has a lot of potential to attract attention of your audience and investing a little bit more effort can help your video to
+        go viral. Let us help your brand become a smash hit and get the place in your branch it deserves.";
+        $topSectionImage = "video-2d-info.gif";
+        $topSectionAlt = "video-2d-info";
+        $bottomSectionTitle = "2D Animations";
+        $bottomSectionText = "The world of animations opens the door to an avenue of opportunities for your business, and your favorite character can even become
+        a member of your team in it. Let the world see the funniest version of your brand and connect with you on a new level?";
+        $bottomSectionImage = "video-2d-package.png";
+        $bottomSectionAlt = "video-2d-package";
+    @endphp
 
-    <section class="wide-silver-section bg-gray-100 pt-16 md:pt-0 md:mt-5">
-        <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
-            <div class="flex justify-center py-4 wide-section-text">
-                <p class="text-5xl text-center font-bold leading-snug text-titleRed px-2 md:px-0 md:w-1/2">
-                    Animate <span class="text-titleBlack"> your video content to animate </span> your clients
-                </p>
-            </div>
-            <div class="flex justify-center mb-8 ">
-                <span class="line-under-section-title mb-10"></span>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
-            <div class="flex-1 mt-8 pl-10 p-5">
-                <p class="custom-black text-xl font-semibold mb-5">Animated content grabs attention!</p>
-                <p class="text-base custom-black-paragraph">Video content has a lot of potential to attract attention of your audience and investing a little bit more effort can help your video to go viral. Let us help your brand become a smash hit and get the place in your branch it deserves.</p>
-            </div>
-            <div class="flex-1">
-                <div class="section-image">
-                    <img src="{{asset('img/video-2d-info.gif')}}" alt="video-2d-info"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mt-28 wide-silver-section mission-section">
-        <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
-            <div class="flex justify-center py-4 mb-8 wide-section-text">
-                <p class="text-3xl text-center font-light leading-snug px-2">We provide our clients with the best and most reliable PR,<br> Marketing and IT solutions in Switzerland </p>
-            </div>
-            <div class="img-holder">
-                <img src="{{asset('img/general-mission-section.png')}}" alt="company-mission" />
-            </div>
-        </div>
-    </section>
-
-    <section class="mt-28">
-        <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
-            <div class="flex-1">
-                <div class="section-image">
-                    <img src="{{asset('img/video-2d-package.png')}}" alt="video-2d-package"/>
-                </div>
-            </div>
-            <div class="flex-1 ml-10 mt-10 md:mt-0">
-                <p class="custom-red text-3xl font-bold mb-5">2D Animations</p>
-                <span class="line-under-section-title mb-10"></span>
-                <p class="text-base custom-black-paragraph pr-5">The world of animations opens the door to an avenue of opportunities for your business, and your favorite character can even become a member of your team in it. Let the world see the funniest version of your brand and connect with you on a new level?</p>
-            </div>
-        </div>
-    </section>
-
+    <x-section-title :title="$title"></x-section-title>
+    <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
+    <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection
