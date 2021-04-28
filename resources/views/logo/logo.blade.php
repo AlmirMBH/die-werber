@@ -1,60 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
+    @php
+        $title = "Let <span class='text-titleBlack'> your </span> logo tell <span class='text-titleBlack'> the right <span class='text-titleRed'>story</span> about you </span>";
+        $topSectionTitle = "Let us create something unique - your logo!";
+        $topSectionText = "Let us help you become a recognizable member of your business branch. Tell us about your corporate colors, values and vision and we will design
+        a meaningful logo for your business. A logo that reflects who you are and what you stand for.";
+        $topSectionImage = "logo-design-info.png";
+        $topSectionAlt = "logo-design-info";
+        $bottomSectionTitle = "Logo Design";
+        $bottomSectionText = "We are a creative team ready to do outstanding work for your brand and teamwork is our most powerful weapon. We follow the latest trends and turn
+        your ideas into reality. Your deadline is our priority.";
+        $bottomSectionImage = "logo-design-package.png";
+        $bottomSectionAlt = "logo-design-package";
+    @endphp
 
-    <section class="wide-silver-section bg-gray-100 pt-16 md:pt-0 md:mt-5">
-        <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
-            <div class="flex justify-center py-4 wide-section-text">
-                <p class="text-5xl text-center font-bold leading-snug text-titleRed px-2 md:px-0 md:w-1/2">
-                    Let <span class="text-titleBlack"> your </span> tell
-                    <span class="text-titleBlack"> the right <span class="text-titleRed">story</span> about you
-                    </span>
-                </p>
-            </div>
-            <div class="flex justify-center mb-8">
-                <span class="line-under-section-title mb-10"></span>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
-            <div class="flex-1 mt-8 pl-10 p-5">
-                <p class="custom-black text-xl font-semibold mb-5">Let us create something unique - your logo!</p>
-                <p class="text-base custom-black-paragraph">Let us help you become a recognizable member of your business branch. Tell us about your corporate colors, values and vision and we will design a meaningful logo for your business. A logo that reflects who you are and what you stand for.</p>
-            </div>
-            <div class="flex-1">
-                <div class="section-image">
-                    <img src="{{asset('img/logo-design-info.png')}}" alt="visual-identity-info"/>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="mt-28 wide-silver-section mission-section">
-        <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
-            <div class="flex justify-center py-4 mb-8 wide-section-text">
-                <p class="text-3xl text-center font-light leading-snug px-2">We provide our clients with the best and most reliable PR,<br> Marketing and IT solutions in Switzerland </p>
-            </div>
-            <div class="img-holder">
-                <img src="{{asset('img/general-mission-section.png')}}" alt="company-mission" />
-            </div>
-        </div>
-    </section>
-
-    <section class="mt-28">
-        <div class="max-w-6xl flex flex-col md:flex-row mx-auto">
-            <div class="flex-1">
-                <div class="section-image">
-                    <img src="{{asset('img/logo-design-package.png')}}" alt="logo-design-package"/>
-                </div>
-            </div>
-            <div class="flex-1 ml-10 mt-10 md:mt-0">
-                <p class="custom-red text-3xl font-bold mb-5">Logo design</p>
-                <span class="line-under-section-title mb-10"></span>
-                <p class="text-base custom-black-paragraph pr-5">We are a creative team ready to do outstanding work for your brand and teamwork is our most powerful weapon. We follow the latest trends and turn your ideas into reality. Your deadline is our priority. </p>
-            </div>
-        </div>
-    </section>
-
+    <x-section-title :title="$title"></x-section-title>
+    <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
+    <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection

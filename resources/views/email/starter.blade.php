@@ -8,7 +8,6 @@
         big list of random addresses. Let us help you pack your content into unique layouts with your logo and send it to your list of selected clients.";
         $topSectionImage = "email-starter-info.png";
         $topSectionAlt = "email-starter-info";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $bottomSectionTitle = "Starter";
         $bottomSectionText = "We place your content in our layout, add your logo and send it to the clients by your choice. The statistical analysis will be
         available to you within ten working days. It will provide you with a better insight into what your clients like or dislike and you can keep modifying
@@ -19,6 +18,6 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection

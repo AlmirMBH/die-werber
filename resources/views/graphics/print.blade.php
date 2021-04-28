@@ -8,7 +8,6 @@
         piece of cake. Let us help you make sure that your brochures, flyers and posters convey the best design and quality message in the printing world.";
         $topSectionImage = "graphic-print-info.png";
         $topSectionAlt = "graphic-print-info";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $bottomSectionTitle = "Print materials";
         $bottomSectionText = "As the old saying goes, “If you want something done right, you have to let Die Werber do it”. Years of experience make us capable
         of converting your ideas into promo miracles. Let our team of printing maestros help you achieve recognition and secure a long-lasting place in the
@@ -19,6 +18,6 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection

@@ -9,7 +9,6 @@
         not for your email.";
         $topSectionImage = "email-medium-info.png";
         $topSectionAlt = "email-medium-info";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $bottomSectionTitle = "Medium";
         $bottomSectionText = "Let us help you write your content and place it in our layout with your logo. After we send it to your clients, the statistical
         analysis will be available to you within ten working days. You will know exactly what your clients like or dislike and you can keep improving your
@@ -20,6 +19,6 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection

@@ -9,7 +9,6 @@
         into curios explorers.";
         $topSectionImage = "graphic-design-info.png";
         $topSectionAlt = "graphic-design-info";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $bottomSectionTitle = "Graphic Design";
         $bottomSectionText = "Modern promo materials have always been in and unique graphic solutions are the first thing that attracts attention. Let our team of
         graphic grand masters pack your vision and values into your visual identity and assist you in attracting the attention of your clients and  competitors.";
@@ -19,6 +18,6 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection

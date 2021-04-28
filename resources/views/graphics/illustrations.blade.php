@@ -9,7 +9,6 @@
         shine itself.";
         $topSectionImage = "graphic-illustrations-info.png";
         $topSectionAlt = "graphic-illustrations-info";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $bottomSectionTitle = "Illustrations";
         $bottomSectionText = "Photography, drawings, patterns and whatnot combined into illustrations is a magical dimension of graphic design. It can enchant
         your clients and get your business out of the labyrinth of business challenges to the holly land of success and eternal business happiness.";
@@ -19,6 +18,6 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection
