@@ -9,7 +9,6 @@
         why our team is always there for you. Let us help you send some of the most attractive and eye-catching emails in your branch.";
         $topSectionImage = "email-special-info.png";
         $topSectionAlt = "email-special-info";
-        $missionText = "We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland";
         $bottomSectionTitle = "Special";
         $bottomSectionText = "Let us help you write your content in multiple languages and place it in a customized layout with your favorite colors and shapes.
         The design of the web version of your newsletter will satisfy the taste of the most demanding clients. In addition to your E-mailing list, we will provide
@@ -20,6 +19,6 @@
 
     <x-section-title :title="$title"></x-section-title>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
-    <x-mid-section-pages :missionText="$missionText"></x-mid-section-pages>
+    <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection
