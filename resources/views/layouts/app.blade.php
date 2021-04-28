@@ -12,11 +12,11 @@
     <script src="https://use.fontawesome.com/aa9bd40b1d.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-    <title>Home</title>
+    <title>Die Werber - @yield('title')</title>
     </head>
 
 <body class="font-nunito">
-    <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-lg p-2">
+    <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-2xl p-2">
         <nav id="site-menu" class="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white shadow sm:shadow-none">
             <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
                 <a href="#" class="no-underline py-1"><h1 class="font-bold text-lg tracking-widest"></h1></a>

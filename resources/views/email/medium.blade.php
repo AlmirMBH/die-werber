@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Email Medium')
 @section('content')
     @php
         $title = "Customize <span class='text-titleBlack'> your content to customize</span>  your clients' preferences";

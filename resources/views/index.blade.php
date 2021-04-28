@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Home')
 @section('content')
 
     <section class="pb-36 pt-24">

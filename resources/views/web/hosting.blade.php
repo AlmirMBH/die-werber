@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Hosting')
 @section('content')
     @php
         $title = "Host <span class='text-titleBlack'> your place on the web to host your place in the </span> business world";

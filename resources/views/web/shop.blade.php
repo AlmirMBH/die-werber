@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Web Shop')
 @section('content')
     @php
         $title = "Open <span class='text-titleBlack'> your </span> web shop <span class='text-titleBlack'> to open the</span> the door to new opportunities";

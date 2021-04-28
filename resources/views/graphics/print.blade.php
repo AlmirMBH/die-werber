@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Print')
 @section('content')
     @php
         $title = "Print <span class='text-titleBlack'> your </span> materials <span class='text-titleBlack'> to print your </span> ticket to the business world";

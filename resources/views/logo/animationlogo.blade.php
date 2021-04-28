@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Logo Animation')
 @section('content')
     @php
         $title = "Animate <span class='text-titleBlack'> your </span> logo <span class='text-titleBlack'> to engage </span> your audience";

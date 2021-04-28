@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Illustrations')
 @section('content')
     @php
         $title = "Illustrate <span class='text-titleBlack'> your </span> content to <span class='text-titleBlack'> illustrate your </span> way to your vision";

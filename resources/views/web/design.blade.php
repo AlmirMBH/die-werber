@@ -1,5 +1,6 @@
 @extends('layouts.app')
 
+@section('title', 'Web Design')
 @section('content')
     @php
         $title = "Design <span class='text-titleBlack'> your web content to design your </span> business opportunities";
