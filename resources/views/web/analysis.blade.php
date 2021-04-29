@@ -6,5 +6,5 @@
         $title = "Let us analyze your website <span class='text-titleBlack'> FREE OF CHARGE </span>";
     @endphp
 
-    <x-section-title :title="$title"></x-section-title>
+    <x-title-section-pages :title="$title"></x-title-section-pages>
 @endsection

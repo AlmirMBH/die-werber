@@ -68,6 +68,9 @@
 }
 
 /*MENU START*/
+#menu{
+    margin-top: -30px;
+}
 #menu .menu-items>li{
     display: inline-block;
     white-space: nowrap;
