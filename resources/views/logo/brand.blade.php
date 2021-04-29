@@ -16,7 +16,7 @@
         $bottomSectionAlt = "visual-identity-package";
     @endphp
 
-    <x-section-title :title="$title"></x-section-title>
+    <x-title-section-pages :title="$title"></x-title-section-pages>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
     <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>

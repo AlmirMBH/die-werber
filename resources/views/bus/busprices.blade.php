@@ -6,5 +6,5 @@
         $title = "Prices";
     @endphp
 
-    <x-section-title :title="$title"></x-section-title>
+    <x-title-section-pages :title="$title"></x-title-section-pages>
 @endsection
