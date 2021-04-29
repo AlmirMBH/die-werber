@@ -11,7 +11,7 @@
         $bottomSectionAlt = "web-hosting-package";
     @endphp
 
-    <x-section-title :title="$title"></x-section-title>
+    <x-title-section-pages :title="$title"></x-title-section-pages>
 
     <div class="max-w-6xl flex flex-col md:flex-row mx-auto mt-10">
         <div class="flex-1 mt-8 pl-10 p-5">

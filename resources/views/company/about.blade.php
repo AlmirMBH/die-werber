@@ -55,14 +55,14 @@
         </div>
     </section>
 
-    <section class="about-video mt-20 bg-green-400">
-        <div class="mx-auto max-w-7xl flex-col md:flex-row py-8">
-            <div class="flex justify-center py-4">
-                <video width="650" controls class="">
-                  <source src="https://die-werber.ch/wp-content/uploads/2020/02/Die-Werber-FINAL.mp4" type="video/mp4">
-                </video>
+    <section class="bg-about-background-image about-video mt-20">
+            <div class="mx-auto max-w-7xl flex-col md:flex-row py-8">
+                <div class="flex justify-center py-4 mx-4 sm:mx-0">
+                    <video width="650" controls class="z-10">
+                      <source src="https://die-werber.ch/wp-content/uploads/2020/02/Die-Werber-FINAL.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
-        </div>
     </section>
 
     <section class="our-mission mt-20">

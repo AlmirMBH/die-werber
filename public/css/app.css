@@ -3976,6 +3976,14 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-about-background-image {
+  background-image: url('/img/about-background-image.jpg');
+}
+
+.bg-contact-section-pages {
+  background-image: url('/img/contact-section-pages.jpg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -35934,6 +35942,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-about-background-image {
+    background-image: url('/img/about-background-image.jpg');
+  }
+
+  .sm\:bg-contact-section-pages {
+    background-image: url('/img/contact-section-pages.jpg');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -67720,6 +67736,14 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-about-background-image {
+    background-image: url('/img/about-background-image.jpg');
+  }
+
+  .md\:bg-contact-section-pages {
+    background-image: url('/img/contact-section-pages.jpg');
   }
 
   .md\:from-transparent {
@@ -99510,6 +99534,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-about-background-image {
+    background-image: url('/img/about-background-image.jpg');
+  }
+
+  .lg\:bg-contact-section-pages {
+    background-image: url('/img/contact-section-pages.jpg');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -131298,6 +131330,14 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-about-background-image {
+    background-image: url('/img/about-background-image.jpg');
+  }
+
+  .xl\:bg-contact-section-pages {
+    background-image: url('/img/contact-section-pages.jpg');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -163084,6 +163124,14 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-about-background-image {
+    background-image: url('/img/about-background-image.jpg');
+  }
+
+  .\32xl\:bg-contact-section-pages {
+    background-image: url('/img/contact-section-pages.jpg');
   }
 
   .\32xl\:from-transparent {
