@@ -23,7 +23,11 @@ module.exports = {
             },
             fontFamily: {
                 'nunito': ['nunito', 'sans-serif'],
-            }
+            },
+            backgroundImage: theme => ({
+                'about-background-image': "url('/img/about-background-image.jpg')",
+                'contact-section-pages': "url('/img/contact-section-pages.jpg')",
+            })
         },
     },
     variants: {
