@@ -3,8 +3,11 @@
         <div class="flex justify-center py-4 mb-8 wide-section-text">
             <p class="text-3xl text-center font-light leading-snug px-2">We provide our clients with the best and most reliable PR, Marketing and IT solutions in Switzerland</p>
         </div>
-        <div class="img-holder">
+        <div class="img-holder" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear">
             <img src="{{asset('img/general-mission-section.png')}}" alt="company-mission" />
         </div>
     </div>
 </section>
+
+
+
