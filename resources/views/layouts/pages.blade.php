@@ -18,16 +18,15 @@
         <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-2xl p-2">
             <x-navbar></x-navbar>
         </header>
-
         <main id="app">
             @yield('content')
-
             <div class="flex flex-col w-2/3 mx-auto mb-24 mt-24 tracking-wide">
                 <a href="#top" id="bottom" class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-red-900 hover:bg-red-900 px-12 py-2">Go to Top</a>
             </div>
+            <x-contact-section-pages></x-contact-section-pages>
             <x-bottom-menu-bar></x-bottom-menu-bar>
         </main>
-            <x-footer></x-footer>
+        <x-footer></x-footer>
     </body>
 </html>
 <script>
