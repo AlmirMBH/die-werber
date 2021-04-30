@@ -23,12 +23,10 @@ Route::get('/', [PagesController::class, 'index'])->name('index');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
 Route::get('/team', [PagesController::class, 'team'])->name('team');
 Route::get('/questions', [PagesController::class, 'questions'])->name('questions');
-Route::get('/merchandising', [PagesController::class, 'merchandising'])->name('merchandising');
 Route::get('/portfolio', [PagesController::class, 'portfolio'])->name('portfolio');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('/privacy', [PagesController::class, 'privacy'])->name('privacy');
 Route::get('/bus', [PagesController::class, 'bus'])->name('bus');
-Route::get('/masks', [PagesController::class, 'masks'])->name('masks');
 
 
 Route::get('/starter', [EmailController::class, 'starter'])->name('email-starter');
