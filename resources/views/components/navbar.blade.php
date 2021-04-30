@@ -71,7 +71,12 @@
                 </ul>
             </li>
             <li><a href="{{route('portfolio')}}">Portfolio</a></li>
-            <li><a href="">Shops</a></li>
+            <li><a href="">Shops<span class="arrow arrowDown"></span></a>
+                <ul class="sub">
+                    <li><a href="https://schutzmasken.die-werber.ch" rel=”nofollow”>Masks</a></li>
+                    <li><a href="{{route('merchandising')}}">Merchandising</a></li>
+                </ul>
+            </li>
             <li><a href="{{route('contact')}}">Contact</a></li>
         </ul>
     </div>
