@@ -74,7 +74,7 @@
             <li><a href="">Shops<span class="arrow arrowDown"></span></a>
                 <ul class="sub">
                     <li><a href="https://schutzmasken.die-werber.ch" rel=”nofollow”>Masks</a></li>
-                    <li><a href="{{route('merchandising')}}">Merchandising</a></li>
+                    <li><a href="https://die-werber.ch/wp-content/uploads/2021/04/Katalog-2021.pdf" target="_blank">Merchandising</a></li>
                 </ul>
             </li>
             <li><a href="{{route('contact')}}">Contact</a></li>
