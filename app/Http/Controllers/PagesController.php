@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use Cornford\Googlmapper\Facades\MapperFacade as Mapper;
 
 class PagesController extends Controller
 {
@@ -33,6 +36,15 @@ class PagesController extends Controller
     }
 
     public function contact(){
+        Mapper::map(
+            53.381128999999990000,   -1.470085000000040000,
+            [
+                'zoom' => 16,
+                'draggabble' => true,
+                'marker' => false,
+                'eventAfterLoad' => 'circleListener(maps[0].shapes[0].circle_0);'
+            ]
+        );
         return view('contact');
     }
 
