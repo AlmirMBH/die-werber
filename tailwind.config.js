@@ -25,6 +25,11 @@ module.exports = {
                     DEFAULT:'#7a7a7a',
                     dark: '#7a7c7c',
                 },
+                darkGreen: {
+                    light: '#035850',
+                    DEFAULT: '#035851',
+                    dark: '#035859',
+                }
             },
             fontFamily: {
                 'nunito': ['nunito', 'sans-serif'],

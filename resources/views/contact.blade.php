@@ -73,12 +73,15 @@
         </div>
     </section>
 
-    <section class="team-section team-section-two">
-        <div class="grid grid-cols-1 gap-4 mx-auto max-w-6xl p-8 md:grid-cols-4">
+    <section class="contact-section">
+        <div class="grid grid-cols-1 gap-4 mt-0 mx-auto max-w-6xl p-8 md:grid-cols-4">
             <div class="office text-center">
+                <div class="contact-icon mb-5">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
                 <div class="office-box-content">
                     <p class="office-icon-box-description"></p>
-                    <p class="contact-info-text"><strong>Office</strong></p>
+                    <p class="contact-info-text text-titleRed"><strong>Office</strong></p>
                     <p>
                         <a href="https://goo.gl/maps/jBSM94sGBiKUFBNJA" target="_blank" class="office-content">Tumbelenstrasse 6 <br>8330 Pfäffikon<br> Schweiz</a>
                     </p>
@@ -86,7 +89,11 @@
             </div>
             <div class="headquarters text-center">
                 <div class="headquarters-icon-box-content">
-                    <p class="headquarters-icon-box-description"></p><p class="headquarters-info-text"><strong>Headquarters</strong></p>
+                    <div class="contact-icon mb-5">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <p class="headquarters-icon-box-description"></p>
+                    <p class="headquarters-info-text text-titleRed"><strong>Headquarters</strong></p>
                     <p>
                         <a href="https://goo.gl/maps/ZqfUD7QvsoDbtQY76" target="_blank" class="info-content">Schönbüelstrasse 34A<br>8330 Pfäffikon<br>Schweiz</a>
                     </p>
@@ -94,15 +101,22 @@
             </div>
             <div class="phone text-center">
                 <div class="phone-icon-box-content">
+                    <div class="contact-icon mb-5">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
                     <p class="phone-icon-box-description"></p>
-                    <p class="phone-info-text"><strong>Phone</strong></p>
+                    <p class="phone-info-text text-titleRed"><strong>Phone</strong></p>
                     <a href="callto:+41449523024" class="phone-content">+41 (0) 44 952 30 24</a>
                 </div>
             </div>
             <div class="email text-center">
                 <div class="email-icon-box-content">
-                    <p class="email-icon-box-description"></p><p class="contact-info-text"><strong>Email</strong></p>
-                    <a href="mailto:info@die-werber.ch" class="email-info-content block">info@die-werber.ch</a>
+                    <div class="contact-icon mb-5">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <p class="email-icon-box-description"></p>
+                    <p class="contact-info-text text-titleRed"><strong>Email</strong></p>
+                    <a href="mailto:info@die-werber.ch" class="email-info-content block hover:text-blue-500">info@die-werber.ch</a>
                     <a href="mailto:support@die-werber.ch" class="email-info-content">support@die-werber.ch</a>
                 </div>
             </div>
@@ -110,8 +124,16 @@
     <section>
 
 
-    <section>
-        <div style="height: 400px; width:700px" class="flex mx-auto">{!! Mapper::render() !!}</div>
+    <section class="mt-10">
+        <div class="mapouter mt-0 mx-auto">
+            <div class="gmap_canvas px-3">
+                <iframe class=" mt-0 mx-auto" style="width:60%" width="" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Sch%C3%B6nb%C3%BCelstrasse%2034A%2C%208330%20Pf%C3%A4ffikon&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://audivindecoder.eu">Audi VIN Decoder</a><br>
+                <style>.mapouter{position:relative;text-align:right;height:400px;}</style>
+                <a href="https://embedmaps.info">Embed Google Maps HTML</a>
+                <style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;}</style>
+            </div>
+        </div>
     </section>
 
 
