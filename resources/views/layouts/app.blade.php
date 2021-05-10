@@ -23,7 +23,7 @@
             @yield('content')
 
             <div class="flex flex-col w-2/3 mx-auto mb-24 mt-24 tracking-wide">
-                <a href="#top" id="bottom" class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-red-900 hover:bg-red-900 px-12 py-2">Go to Top</a>
+                <a href="#top" id="bottom" class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-darkGreen hover:shadow-lg hover:bg-darkGreen px-12 py-2 ">Go to Top</a>
             </div>
             <x-bottom-menu-bar></x-bottom-menu-bar>
         </main>

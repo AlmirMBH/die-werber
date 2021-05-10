@@ -37,7 +37,7 @@ class PagesController extends Controller
 
     public function contact(){
         Mapper::map(
-            53.381128999999990000,   -1.470085000000040000,
+            53.381128999999990000, -1.470085000000040000,
             [
                 'zoom' => 16,
                 'draggabble' => true,
