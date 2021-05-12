@@ -66,7 +66,7 @@
 
     <div class="bottom-section flex flex-col md:flex-row max-w-6xl mx-auto">
         <div class="flex-1 support-img" data-aos-duration="1500" data-aos="fade-right" data-aos-easing="ease-out-cubic">
-            <img src="{{ asset('img/faqsupport.png') }}" alt="support" class=" block ml-auto">
+            <img src="{{ asset('img/faqsupport.png') }}" alt="support" class="block ml-auto">
         </div>
         <div class="flex-1 support-content mt-7 ml-10">
             <h3 class="text-titleRed text-3xl font-bold font-weight-bolder text-left mb-3 mt-5 sm:mt-0 text-center sm:text-left">Need help?</h3>
@@ -79,32 +79,33 @@
 
     <script>
         $(document).ready(function(){
+
             $("#btn1").click(function(){
-                $("#card1").slideToggle(2000);
+                $("#card1").slideToggle(800);
             });
 
             $("#btn2").click(function(){
-                $("#card2").slideToggle(2000);
+                $("#card2").slideToggle(1000);
             });
 
             $("#btn3").click(function(){
-                $("#card3").slideToggle(2000);
+                $("#card3").slideToggle(1000);
             });
 
             $("#btn4").click(function(){
-                $("#card4").slideToggle(2000);
+                $("#card4").slideToggle(1000);
             });
 
             $("#btn5").click(function(){
-                $("#card5").slideToggle(2000);
+                $("#card5").slideToggle(1000);
             });
 
             $("#btn6").click(function(){
-                $("#card6").slideToggle(2000);
+                $("#card6").slideToggle(1000);
             });
 
             $("#btn7").click(function(){
-                $("#card7").slideToggle(2000);
+                $("#card7").slideToggle(1000);
             });
         });
     </script>
