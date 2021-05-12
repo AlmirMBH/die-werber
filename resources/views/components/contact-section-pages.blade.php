@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="flex-1 mt-10 sm:pt-2 md:mt-0 text-center md:text-right">
-            <a href="" class="btn btn-secondary button-white">Get started now</a>
+            <a href="" class="btn btn-secondary button-white py-3 px-5">Get started now</a>
         </div>
     </div>
 </section>
