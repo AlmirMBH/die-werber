@@ -231,3 +231,11 @@ html {
 .arrowDown{
     transform: rotateZ(135deg) translate(0px, 3px);
 }
+
+/*WEB ANALYSIS*/
+
+#analysis-url, #analysis-email{ font-weight: bolder}
+
+#analysis-btn{ background-color: #13CD8F; color: #ffffff; font-weight: bold}
+
+#analysis-btn:hover{ background-color: #035851}
