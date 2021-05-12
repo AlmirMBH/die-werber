@@ -208,7 +208,7 @@
                 </div>
             </div>
             <div class="flex-1 m-4">
-                <h1 class="my-4 text-purple-500">Marketing<h1>
+                <h1 class="my-4 text-purple-500">Marketing</h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">E-mail</span> <span class="text-titleRed">Marketing</span></h1>
                     <div data-aos="fade-up" data-aos-duration="2000">
                         <section>
@@ -242,7 +242,7 @@
     <section class="home-logo-design py-24">
         <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 m-4">
-                <h1 class="my-4 text-purple-500">Marketing<h1>
+                <h1 class="my-4 text-purple-500">Marketing</h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Logo</span> <span class="text-titleRed">Design</span></h1>
                     <div data-aos="fade-up" data-aos-duration="2000">
                         <section>
@@ -286,7 +286,7 @@
                 </div>
             </div>
             <div class="flex-1 m-4">
-                <h1 class="my-4 text-purple-500">Design<h1>
+                <h1 class="my-4 text-purple-500">Design</h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Bus</span> <span class="text-titleRed">Wrapping</span></h1>
                     <div data-aos="fade-up" data-aos-duration="2000">
                         <section>
@@ -324,27 +324,42 @@
                 <h1 class="text-4xl font-semibold">Our working process</h1>
             </div>
         </div>
-        <div class="mx-auto flex flex-row max-w-6xl my-10">
+        <div class="mx-auto flex flex-row max-w-6xl mt-10">
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Research</h1>
+                <div class="circle bg-white p-5 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="research" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-research.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Research</h1>
             </div>
+
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Planing</h1>
+                <div class="circle bg-white py-5 px-6 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="planing" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-planing.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Planing</h1>
             </div>
+
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Implementing</h1>
+                <div class="circle bg-white p-5 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="implementing" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-implementing.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Implementing</h1>
             </div>
+
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Results</h1>
+                <div class="circle bg-white p-5 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="results" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-results.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Results</h1>
             </div>
         </div>
-        <div class="mx-auto flex flex-row max-w-6xl justify-center">
+
+        <div class="mx-auto flex flex-row max-w-6xl justify-center mt-20">
             <div class="text-center text-white mb-10 md:w-2/4 mx-2 md:mx-0">
-                <p class="text-base font-light text-justify" >After determining your requirements, we undertake a creative and
+                <p id="workflow-text" class="text-bold text-lg font-light text-justify">After determining your requirements, we undertake a creative and
                  systematic, but often hectic and passionate research to increase the pool of knowledge about our
                  task and your corporate culture, vision, mission and clients.</p>
             </div>
-        </div>
         </div>
     </section>
 
@@ -554,13 +569,33 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </section>
 
+    <script>
+        let research = "After determining your requirements, we undertake a creative and systematic, but often hectic and passionate research to increase the pool of knowledge about our task and your corporate culture, vision, mission and clients.";
+        let planing = "As Benjamin Frankling once said „By failing to prepare, you are preparing to fail.“ We firmly believe that half of the project is already done after research and smart planing. Upon the analysis of your requirements, we develop a plan and start implementing it - the most exciting part.";
+        let implementing = "Based on our research and in line with our plan, we tirelessly eat pizza, drink coke and play darts to stay focused on the task. The implementation often requires eye-opening sessions of brainstorming that keep us awake at night thinking about new ways of solving issues and securing our place among the elite designers and programmers – a bittersweet competition.";
+        let results = "The best part of our work is when we see a smile on your face, and if it is not the best one you have, we can always offer to re-design it a bit. When you realize that your dreams came true, you will know that we always deliver what we promise but we do not guarantee that you will not ask for more of it.";
 
-{{--    sadrzaj--}}
-<h1 class="text-center text-indigo-500">Home</h1>
+        function changeText(obj){
+            let icon = obj.id;
+            if(icon === "research"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(research).fadeIn(700);
+                })
+            }else if(icon === "planing"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(planing).fadeIn(700);
+                })
+            }else if(icon === "implementing"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(implementing).fadeIn(700);
+                })
+            }else if(icon === "results"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(results).fadeIn(700);
+                })
+            }
+        }
+    </script>
 @endsection
