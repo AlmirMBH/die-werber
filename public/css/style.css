@@ -19,6 +19,10 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* HAMBURGER MENU */
 .hamburger {
     cursor: pointer;
@@ -88,7 +92,7 @@
 }
 
 #menu li:hover>a{
-    background-color: lightgray;
+    background-color: #F7F9FD;
     cursor: pointer;
 }
 
@@ -167,3 +171,71 @@
 .footer img {
     width: 40%;
 }
+
+.button-white{
+    font-weight: 700;
+    color: #1f1f1f;
+    background-color: #ffffff;
+    border-radius: 30px 30px 30px 30px;
+    line-height: 28px !important;
+}
+
+.button-white:hover{
+    background: #027366;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.4s ease;
+    white-space: normal;
+}
+
+.contact-form-button{
+    background-color: #13cd8f;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 51px;
+}
+
+.contact-form-button:hover{
+    background-color: #035851;
+    transition: all 0.4s ease;
+    white-space: normal;
+}
+
+.contact-icon{
+    color:#13CD8F;
+    font-size: 35px;
+}
+
+
+/*FAQ*/
+.arrow{
+    display: inline-block;
+    border: 2px solid lightgray;
+    width: 8px;
+    height: 8px;
+    border-left: none;
+    border-bottom: none;
+    position: relative;
+    right: 0;
+    margin-left: 10px;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.arrowDown{
+    transform: rotateZ(135deg) translate(0px, 3px);
+}
+
+/*WEB ANALYSIS*/
+
+#analysis-url, #analysis-email{ font-weight: bolder}
+
+#analysis-btn{ background-color: #13CD8F; color: #ffffff; font-weight: bold}
+
+#analysis-btn:hover{ background-color: #035851}

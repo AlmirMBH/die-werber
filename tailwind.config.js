@@ -19,6 +19,16 @@ module.exports = {
                     light: '#F36377',
                     DEFAULT: '#F25266',
                     dark: '#F14155',
+                },
+                paragraphGray: {
+                    light: '#7a7b7b',
+                    DEFAULT:'#7a7a7a',
+                    dark: '#7a7c7c',
+                },
+                darkGreen: {
+                    light: '#035850',
+                    DEFAULT: '#035851',
+                    dark: '#035859',
                 }
             },
             fontFamily: {

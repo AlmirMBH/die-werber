@@ -88,32 +88,34 @@
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Development<h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Web & App</span> <span class="text-titleRed">Development</span></h1>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-8">
-                            <div class="flex-1 pr-6 text-justify">
-                            We like to believe that we are a team of web philosophers capable of developing the undevelopable
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <section>
+                            <div class="mx-auto flex flex-row mb-8">
+                                <div class="flex-1 pr-6 text-justify">
+                                We like to believe that we are a team of web philosophers capable of developing the undevelopable
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Front-end, Back-end or Full-stack - it is all our cup of tea - we promise top-notch user experience
+                                </div>
                             </div>
-                            <div class="flex-1 text-justify">
-                            Front-end, Back-end or Full-stack - it is all our cup of tea - we promise top-notch user experience
+                        </section>
+                        <section>
+                            <div class="mx-auto flex flex-row mb-12">
+                                <div class="flex-1 pr-6 text-justify">
+                                Striving to become regional trend setters, we are always looking for new ways to make your web dreams come true
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Web meta-knowledge and understanding of our clients needs is our competitive advantage
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-12">
-                            <div class="flex-1 pr-6 text-justify">
-                            Striving to become regional trend setters, we are always looking for new ways to make your web dreams come true
-                            </div>
-                            <div class="flex-1 text-justify">
-                            Web meta-knowledge and understanding of our clients needs is our competitive advantage
-                            </div>
-                        </div>
-                    </section>
-                <div class="button">
+                        </section>
+                    </div>
+                <div class="button" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#" class="py-4 px-12 bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl">Learn more</a>
                 </div>
             </div>
             <div class="flex-1 mx-auto flex-col">
-                <div class="flex justify-center">
+                <div class="flex justify-center" data-aos="fade-down" data-aos-duration="2000">
                     <img src="{{asset('img/home-web-development.png')}}" alt="home-webdevelopment">
                 </div>
             </div>
@@ -123,34 +125,36 @@
     <section class="home-graphic-design py-24">
         <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 mx-auto flex-col">
-                <div class="flex justify-center">
+                <div class="flex justify-center" data-aos="fade-down" data-aos-duration="2000">
                     <img src="{{asset('img/home-graphic-design.png')}}" alt="home-graphic-design">
                 </div>
             </div>
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Design<h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Graphic</span> <span class="text-titleRed">Design</span></h1>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-8">
-                            <div class="flex-1 pr-6 text-justify">
-                            We are a creative team ready to do outstanding work for your brand
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <section>
+                            <div class="mx-auto flex flex-row mb-8">
+                                <div class="flex-1 pr-6 text-justify">
+                                We are a creative team ready to do outstanding work for your brand
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Branding, printing, creative design, motion graphic… you name it, we do it
+                                </div>
                             </div>
-                            <div class="flex-1 text-justify">
-                            Branding, printing, creative design, motion graphic… you name it, we do it
+                        </section>
+                        <section>
+                            <div class="mx-auto flex flex-row mb-12">
+                                <div class="flex-1 pr-6 text-justify">
+                                We follow the latest trends, we turn your ideas into reality, your deadline is our priority
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Teamwork is our most powerful weapon
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-12">
-                            <div class="flex-1 pr-6 text-justify">
-                            We follow the latest trends, we turn your ideas into reality, your deadline is our priority
-                            </div>
-                            <div class="flex-1 text-justify">
-                            Teamwork is our most powerful weapon
-                            </div>
-                        </div>
-                    </section>
-                <div class="button">
+                        </section>
+                    </div>
+                <div class="button" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#" class="py-4 px-12 bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl">Learn more</a>
                 </div>
             </div>
@@ -162,32 +166,34 @@
             <div class="flex-1 m-4">
                 <h1 class="my-4 text-purple-500">Video<h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Animation</span> <span class="text-titleRed">Video</span></h1>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-8">
-                            <div class="flex-1 pr-6 text-justify">
-                            Our video grand masters will invest hours of creative work to produce an outstanding video that your audience will like.
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <section>
+                            <div class="mx-auto flex flex-row mb-8">
+                                <div class="flex-1 pr-6 text-justify">
+                                Our video grand masters will invest hours of creative work to produce an outstanding video that your audience will like.
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Three-dimensional models, animations or geometric shapes can be combined into a mystical world of your own.
+                                </div>
                             </div>
-                            <div class="flex-1 text-justify">
-                            Three-dimensional models, animations or geometric shapes can be combined into a mystical world of your own.
+                        </section>
+                        <section>
+                            <div class="mx-auto flex flex-row mb-12">
+                                <div class="flex-1 pr-6 text-justify">
+                                Every stage of your business process, from your idea and research to the final product, has the potential to cast a different light on what you do and what you provide your clients with.
+                                </div>
+                                <div class="flex-1 text-justify">
+                                The world of animations opens the door to an avenue of opportunities for your business, and your favorite character can even become a member of your team in it.
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-12">
-                            <div class="flex-1 pr-6 text-justify">
-                            Every stage of your business process, from your idea and research to the final product, has the potential to cast a different light on what you do and what you provide your clients with.
-                            </div>
-                            <div class="flex-1 text-justify">
-                            The world of animations opens the door to an avenue of opportunities for your business, and your favorite character can even become a member of your team in it.
-                            </div>
-                        </div>
-                    </section>
-                <div class="button">
+                        </section>
+                    </div>
+                <div class="button" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#" class="py-4 px-12 bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl">Learn more</a>
                 </div>
             </div>
             <div class="flex-1 mx-auto flex-col">
-                <div class="flex justify-center">
+                <div class="flex justify-center" data-aos="fade-down" data-aos-duration="2000">
                     <img src="{{asset('img/home-animation-video.png')}}" alt="home-animation-video">
                 </div>
             </div>
@@ -197,34 +203,36 @@
     <section class="home-email-marketing py-24">
         <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 mx-auto flex-col">
-                <div class="flex justify-center">
+                <div class="flex justify-center" data-aos="fade-down" data-aos-duration="2000" >
                     <img src="{{asset('img/home-email-marketing.png')}}" alt="home-email-marketing">
                 </div>
             </div>
             <div class="flex-1 m-4">
-                <h1 class="my-4 text-purple-500">Marketing<h1>
+                <h1 class="my-4 text-purple-500">Marketing</h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">E-mail</span> <span class="text-titleRed">Marketing</span></h1>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-8">
-                            <div class="flex-1 pr-6 text-justify">
-                            Our team of marketing virtuosi is capable of finding the most hidden wormholes in your business universe to reach your clients
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <section>
+                            <div class="mx-auto flex flex-row mb-8">
+                                <div class="flex-1 pr-6 text-justify">
+                                Our team of marketing virtuosi is capable of finding the most hidden wormholes in your business universe to reach your clients
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Our expertise in E-mail marketing can become your tentacles of business success
+                                </div>
                             </div>
-                            <div class="flex-1 text-justify">
-                            Our expertise in E-mail marketing can become your tentacles of business success
+                        </section>
+                        <section>
+                            <div class="mx-auto flex flex-row mb-12">
+                                <div class="flex-1 pr-6 text-justify">
+                                We develop strategies that become trends, and our creativity can be part of your customized specialty
+                                </div>
+                                <div class="flex-1 text-justify">
+                                One small step for your social media marketing, but a great benefit for your clients
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-12">
-                            <div class="flex-1 pr-6 text-justify">
-                            We develop strategies that become trends, and our creativity can be part of your customized specialty
-                            </div>
-                            <div class="flex-1 text-justify">
-                            One small step for your social media marketing, but a great benefit for your clients
-                            </div>
-                        </div>
-                    </section>
-                <div class="button">
+                        </section>
+                    </div>
+                <div class="button" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#" class="py-4 px-12 bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl">Learn more</a>
                 </div>
             </div>
@@ -234,34 +242,36 @@
     <section class="home-logo-design py-24">
         <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 m-4">
-                <h1 class="my-4 text-purple-500">Marketing<h1>
+                <h1 class="my-4 text-purple-500">Marketing</h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Logo</span> <span class="text-titleRed">Design</span></h1>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-8">
-                            <div class="flex-1 pr-6 text-justify">
-                            Tell us about your corporate colors, values and vision and we will design a meaningful logo for your business. A logo that reflects who you are and what you stand for.
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <section>
+                            <div class="mx-auto flex flex-row mb-8">
+                                <div class="flex-1 pr-6 text-justify">
+                                Tell us about your corporate colors, values and vision and we will design a meaningful logo for your business. A logo that reflects who you are and what you stand for.
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Free your logo and give it another dimension for a better experience of your brand. It is simple, go 3D and let your brand live outside the 2D box.
+                                </div>
                             </div>
-                            <div class="flex-1 text-justify">
-                            Free your logo and give it another dimension for a better experience of your brand. It is simple, go 3D and let your brand live outside the 2D box.
+                        </section>
+                        <section>
+                            <div class="mx-auto flex flex-row mb-12">
+                                <div class="flex-1 pr-6 text-justify">
+                                Whether you like 2D, 3D or motion graphics, our team of graphic wizards will invent creative ways to help your logo to move and create a lot of potential for networking.
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Powerful businesses have powerful visual identity that brings about many benefits such as recognition and access to markets they would not otherwise be able to reach.
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-12">
-                            <div class="flex-1 pr-6 text-justify">
-                            Whether you like 2D, 3D or motion graphics, our team of graphic wizards will invent creative ways to help your logo to move and create a lot of potential for networking.
-                            </div>
-                            <div class="flex-1 text-justify">
-                            Powerful businesses have powerful visual identity that brings about many benefits such as recognition and access to markets they would not otherwise be able to reach.
-                            </div>
-                        </div>
-                    </section>
-                <div class="button">
+                        </section>
+                    </div>
+                <div class="button" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#" class="py-4 px-12 bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl">Learn more</a>
                 </div>
             </div>
             <div class="flex-1 mx-auto flex-col">
-                <div class="flex justify-center">
+                <div class="flex justify-center" data-aos="fade-down" data-aos-duration="2000">
                     <img src="{{asset('img/home-logo-design.png')}}" alt="home-logo-design">
                 </div>
             </div>
@@ -271,34 +281,36 @@
     <section class="home-bus-wrapping py-24">
         <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
             <div class="flex-1 mx-auto flex-col">
-                <div class="flex justify-center">
+                <div class="flex justify-center" data-aos="fade-down" data-aos-duration="2000">
                     <img src="{{asset('img/home-bus-wrapping.png')}}" alt="home-bus-wrapping">
                 </div>
             </div>
             <div class="flex-1 m-4">
-                <h1 class="my-4 text-purple-500">Design<h1>
+                <h1 class="my-4 text-purple-500">Design</h1>
                 <h1 class="text-3xl mb-10 font-semibold"><span class="text-titleBlack">Bus</span> <span class="text-titleRed">Wrapping</span></h1>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-8">
-                            <div class="flex-1 pr-6 text-justify">
-                            Let us help you create the best bus foil on the market that conveys the right message to your audience.
+                    <div data-aos="fade-up" data-aos-duration="2000">
+                        <section>
+                            <div class="mx-auto flex flex-row mb-8">
+                                <div class="flex-1 pr-6 text-justify">
+                                Let us help you create the best bus foil on the market that conveys the right message to your audience.
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Buses are always around, they are moving and people like to see them.
+                                </div>
                             </div>
-                            <div class="flex-1 text-justify">
-                            Buses are always around, they are moving and people like to see them.
+                        </section>
+                        <section>
+                            <div class="mx-auto flex flex-row mb-12">
+                                <div class="flex-1 pr-6 text-justify">
+                                Whether your bus is on a cosy road to a tourist destination or on a jammed highway, it should always stand out.
+                                </div>
+                                <div class="flex-1 text-justify">
+                                Bus surfaces are among the best places for modern and unique advertisements. Usethem to build your brand.
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="mx-auto flex flex-row mb-12">
-                            <div class="flex-1 pr-6 text-justify">
-                            Whether your bus is on a cosy road to a tourist destination or on a jammed highway, it should always stand out.
-                            </div>
-                            <div class="flex-1 text-justify">
-                            Bus surfaces are among the best places for modern and unique advertisements. Usethem to build your brand.
-                            </div>
-                        </div>
-                    </section>
-                <div class="button">
+                        </section>
+                    </div>
+                <div class="button" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#" class="py-4 px-12 bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl">Learn more</a>
                 </div>
             </div>
@@ -312,27 +324,42 @@
                 <h1 class="text-4xl font-semibold">Our working process</h1>
             </div>
         </div>
-        <div class="mx-auto flex flex-row max-w-6xl my-10">
+        <div class="mx-auto flex flex-row max-w-6xl mt-10">
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Research</h1>
+                <div class="circle bg-white p-5 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="research" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-research.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Research</h1>
             </div>
+
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Planing</h1>
+                <div class="circle bg-white py-5 px-6 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="planing" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-planing.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Planing</h1>
             </div>
+
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Implementing</h1>
+                <div class="circle bg-white p-5 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="implementing" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-implementing.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Implementing</h1>
             </div>
+
             <div class="text-center text-white flex-1">
-                <h1 class="text-base">Results</h1>
+                <div class="circle bg-white p-5 w-16 rounded-full mx-auto mb-5 cursor-pointer" id="results" onclick="changeText(this)">
+                    <img src="{{asset('img/workflow-results.png')}}" alt="workflowresearch">
+                </div>
+                <h1 class="text-bold text-lg">Results</h1>
             </div>
         </div>
-        <div class="mx-auto flex flex-row max-w-6xl justify-center">
+
+        <div class="mx-auto flex flex-row max-w-6xl justify-center mt-20">
             <div class="text-center text-white mb-10 md:w-2/4 mx-2 md:mx-0">
-                <p class="text-base font-light text-justify" >After determining your requirements, we undertake a creative and
+                <p id="workflow-text" class="text-bold text-lg font-light text-justify">After determining your requirements, we undertake a creative and
                  systematic, but often hectic and passionate research to increase the pool of knowledge about our
                  task and your corporate culture, vision, mission and clients.</p>
             </div>
-        </div>
         </div>
     </section>
 
@@ -542,13 +569,33 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </section>
 
+    <script>
+        let research = "After determining your requirements, we undertake a creative and systematic, but often hectic and passionate research to increase the pool of knowledge about our task and your corporate culture, vision, mission and clients.";
+        let planing = "As Benjamin Frankling once said „By failing to prepare, you are preparing to fail.“ We firmly believe that half of the project is already done after research and smart planing. Upon the analysis of your requirements, we develop a plan and start implementing it - the most exciting part.";
+        let implementing = "Based on our research and in line with our plan, we tirelessly eat pizza, drink coke and play darts to stay focused on the task. The implementation often requires eye-opening sessions of brainstorming that keep us awake at night thinking about new ways of solving issues and securing our place among the elite designers and programmers – a bittersweet competition.";
+        let results = "The best part of our work is when we see a smile on your face, and if it is not the best one you have, we can always offer to re-design it a bit. When you realize that your dreams came true, you will know that we always deliver what we promise but we do not guarantee that you will not ask for more of it.";
 
-{{--    sadrzaj--}}
-<h1 class="text-center text-indigo-500">Home</h1>
+        function changeText(obj){
+            let icon = obj.id;
+            if(icon === "research"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(research).fadeIn(700);
+                })
+            }else if(icon === "planing"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(planing).fadeIn(700);
+                })
+            }else if(icon === "implementing"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(implementing).fadeIn(700);
+                })
+            }else if(icon === "results"){
+                $("#workflow-text").fadeOut(700, function(){
+                    $("#workflow-text").html(results).fadeIn(700);
+                })
+            }
+        }
+    </script>
 @endsection
