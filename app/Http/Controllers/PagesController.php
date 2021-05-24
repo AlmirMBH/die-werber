@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use Cornford\Googlmapper\Facades\MapperFacade as Mapper;
 
 class PagesController extends Controller
 {
