@@ -18,6 +18,55 @@
 
     <x-title-section-pages :title="$title"></x-title-section-pages>
     <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
+
+    <section>
+        <div class="mx-auto flex flex-row max-w-6xl mb-6 mt-12 px-2">
+            <div class="flex-1">
+                <p class="text-3xl md:text-4xl text-titleRed font-semibold mb-5">Anna – “Hochdeutsch”</p>
+                <audio class="min-w-full" controls>
+                  <source src="{{asset('audio/Anna-Hochdeutsch-voice-sample.mp3')}}" type="audio/mpeg">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="mx-auto flex flex-row max-w-6xl mt-12 mb-6 px-2">
+            <div class="flex-1">
+                <p class="text-3xl md:text-4xl  text-titleRed font-semibold mb-5">Mathias – “Schweizerdeutsch”</p>
+                <audio class="min-w-full" controls>
+                 <source src="{{asset('audio/Mathias–Schweizerdeutsch-voice-sample.wav')}}" type="audio/wav">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="mx-auto flex flex-row max-w-6xl mb-6 px-2">
+            <div class="flex-1">
+                <p class="text-3xl md:text-4xl text-titleRed font-semibold mb-5">Dominik – “Hochdeutsch”</p>
+                <audio class="min-w-full" controls>
+                  <source src="{{asset('audio/Dominik-Hochdeutsch-voice-sample.mp3')}}" type="audio/mp3">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="mx-auto flex flex-row max-w-6xl mb-6 px-2">
+            <div class="flex-1">
+                <p class="text-3xl md:text-4xl text-titleRed font-semibold mb-5">Lars – “Hochdeutsch”</p>
+                <audio class="min-w-full" controls>
+                  <source src="{{asset('audio/Lars-Hochdeutsch-voice-sample.mp3')}}" type="audio/mp3">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+        <div class="mx-auto flex flex-row max-w-6xl mb-12 px-2">
+            <div class="flex-1">
+                <p class="text-3xl md:text-4xl text-titleRed font-semibold mb-5">Markus – “Hochdeutsch”</p>
+                <audio class="min-w-full" controls>
+                  <source src="{{asset('audio/Markus-Hochdeutsch-voice-sample.mp3')}}" type="audio/mp3">
+                Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
     <x-mid-section-pages></x-mid-section-pages>
     <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
 @endsection
