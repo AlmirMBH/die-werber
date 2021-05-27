@@ -1,26 +1,48 @@
 <?php
 
-
 namespace App\Helpers\Portfolio;
-
 
 class WebPortfolio
 {
 
-    //        WEB PORTFOLIO INDEX PAGE
-    public static $swissHockeyFan = "portfolio-web-swiss-hockey-fan.png";
-    public static $swissHockeyFanUrl = "https://swiss-hockey-fan.ch/";
-    public static $brand = "portfolio-web-brandschutz.png";
-    public static $brandUrl = "https://www.mp-brandschutz.ch/";
-    public static $beer = "portfolio-web-bierfascht.png";
-    public static $beerUrl = "https://wetziker-bierfäscht.ch/";
-    public static $football = "portfolio-logo-football-expert.png";
-    public static $footballUrl = "https://fussball-experte.ch/";
-    public static $flipflop = "portfolio-logo-grass-flipflop.png";
-    public static $flipflopUrl = "https://grass-flipflop.com/";
-    public static $spinart = "portfolio-logo-spinart.png";
-    public static $spinartUrl = "https://spinart.ch/";
-    public static $chesselhuus = "portfolio-logo-chesselhuus.png";
-    public static $chesselhuusUrl = "https://www.chesselhuus.ch/";
-
+    // WEB PORTFOLIO INDEX PAGE
+    public static function getSliderList(){
+        return [
+            'swiss-hockey-fan' => [
+                'img' => 'portfolio-web-swiss-hockey-fan.png',
+                'url' => 'https://swiss-hockey-fan.ch/',
+                'title' => 'Swiss Hockey Fan'
+            ],
+            'branschutz' => [
+                'img' => 'portfolio-web-brandschutz.png',
+                'url' => 'https://www.mp-brandschutz.ch/',
+                'title' => 'MP Brandschutz'
+            ],
+            'bierfascht' => [
+                'img' => 'portfolio-web-bierfascht.png',
+                'url' => 'https://wetziker-bierfäscht.ch/',
+                'title' => 'Bierfäscht'
+            ],
+            'football' => [
+                'img' => 'portfolio-logo-football-expert.png',
+                'url' => 'https://fussball-experte.ch/',
+                'title' => 'Fussball-Experte'
+            ],
+            'flipflop' => [
+                'img' => 'portfolio-logo-grass-flipflop.png',
+                'url' => 'https://grass-flipflop.com/',
+                'title' => 'Grass FlipFlop'
+            ],
+            'spinart' => [
+                'img' => 'portfolio-logo-spinart.png',
+                'url' => 'https://spinart.ch/',
+                'title' => 'Spinart'
+            ],
+            'chesselhuus' => [
+                'img' => 'portfolio-logo-chesselhuus.png',
+                'url' => 'https://www.chesselhuus.ch/',
+                'title' => 'Chesselhuus'
+            ]
+        ];
+    }
 }
