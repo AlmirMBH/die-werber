@@ -363,6 +363,45 @@
         </div>
     </section>
 
+    <section id="portfolio-web">
+        {{-- data fetched from WebPortfolio helper class --}}
+        @php $portfolioClassNamespace = "App\Helpers\Portfolio\WebPortfolio"; @endphp
+        <x-portfolio-slider
+            :img1="$portfolioClassNamespace::$swissHockeyFan"
+            :url1="$portfolioClassNamespace::$swissHockeyFanUrl"
+            :img2="$portfolioClassNamespace::$brand"
+            :url2="$portfolioClassNamespace::$brandUrl"
+            :img3="$portfolioClassNamespace::$beer"
+            :url3="$portfolioClassNamespace::$beerUrl"
+            :img4="$portfolioClassNamespace::$football"
+            :url4="$portfolioClassNamespace::$footballUrl"
+            :img5="$portfolioClassNamespace::$flipflop"
+            :url5="$portfolioClassNamespace::$flipflopUrl"
+            :img6="$portfolioClassNamespace::$spinart"
+            :url6="$portfolioClassNamespace::$spinartUrl"
+            :img7="$portfolioClassNamespace::$chesselhuus"
+            :url7="$portfolioClassNamespace::$chesselhuusUrl"
+        ></x-portfolio-slider>
+    </section>
+
+    <section id="portfolio-web">
+        {{-- data fetched from GraphicPortfolio helper class --}}
+        @php $portfolioClassNamespace = "App\Helpers\Portfolio\GraphicPortfolio"; @endphp
+        <x-portfolio-slider
+            :img1="$portfolioClassNamespace::$schrank"
+            :url1="$portfolioClassNamespace::$schrankUrl"
+            :img2="$portfolioClassNamespace::$cook"
+            :url2="$portfolioClassNamespace::$cookUrl"
+            :img3="$portfolioClassNamespace::$chesselhuusGraphic"
+            :url3="$portfolioClassNamespace::$chesselhuusGraphicUrl"
+            :img4="$portfolioClassNamespace::$photovoltaik"
+            :url4="$portfolioClassNamespace::$photovoltaikUrl"
+            :img5="$portfolioClassNamespace::$spinartGraphic"
+            :url5="$portfolioClassNamespace::$spinartGraphicUrl"
+            :img6="$portfolioClassNamespace::$langolo"
+        ></x-portfolio-slider>
+    </section>
+
     <section class="home-portfolio mt-20">
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
             <div class="text-center">
