@@ -3,11 +3,6 @@
 @section('title', 'Home')
 @section('content')
 
-    <section class="home-slider z-0">
-        <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
-            <x-homepage-slider></x-homepage-slider>
-        </div>
-    </section>
 
     <section class="pb-36 pt-24">
         <div class="mx-auto flex flex-col md:flex-row max-w-6xl md:divide-x-2 md:divide-purple-400">
