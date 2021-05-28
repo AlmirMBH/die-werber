@@ -2,7 +2,7 @@
 
 namespace App\Helpers\Portfolio;
 
-class WebPortfolio
+class Web
 {
 
     // WEB PORTFOLIO INDEX PAGE

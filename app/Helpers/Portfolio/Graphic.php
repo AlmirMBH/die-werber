@@ -2,7 +2,7 @@
 
 namespace App\Helpers\Portfolio;
 
-class GraphicPortfolio
+class Graphic
 {
     // GRAPHIC DESIGN PORTFOLIO INDEX PAGE
     public static function getSliderList(){

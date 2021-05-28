@@ -4,7 +4,7 @@
 namespace App\Helpers\Portfolio;
 
 
-class VideoPortfolio
+class Video
 {
     public static function getSliderList(){
         return [
@@ -56,6 +56,18 @@ class VideoPortfolio
                 'title' => 'Comcredit',
                 'alt' => 'comcredit'
             ],
+            'performpunkt' => [
+                'img' => 'portfolio-animationvideo-performpunktag.png',
+                'url' => 'https://www.youtube.com/watch?v=rkIHf3lXaxk',
+                'title' => 'Perform Punkt AG',
+                'alt' => 'perform-punkt-ag'
+            ],
+            'animationvideo' => [
+                'img' => 'portfolio-animationvideo-animationsvideo.png',
+                'url' => 'https://www.youtube.com/watch?v=VKl0uBVDw4Y',
+                'title' => 'Animationsvideo',
+                'alt' => 'animationsvideo'
+            ]
 
 
 

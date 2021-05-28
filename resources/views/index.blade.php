@@ -363,236 +363,64 @@
         </div>
     </section>
 
-    <section id="portfolio-web">
-        @php
-            $portfolioClassNamespace = "App\Helpers\Portfolio\WebPortfolio";
-            $portfolioList = $portfolioClassNamespace::getSliderList();
-        @endphp
-        <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
-    </section>
-
-    <section id="portfolio-graphic-design">
-        @php
-            $portfolioClassNamespace = "App\Helpers\Portfolio\GraphicPortfolio";
-            $portfolioList = $portfolioClassNamespace::getSliderList();
-        @endphp
-        <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
-    </section>
-
-    <section id="portfolio-video">
-        @php
-            $portfolioClassNamespace = "App\Helpers\Portfolio\VideoPortfolio";
-            $portfolioList = $portfolioClassNamespace::getSliderList();
-        @endphp
-        <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
-    </section>
-
-    <section class="home-portfolio mt-20">
+    <section class="home-portfolio mt-16">
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
-            <div class="text-center">
-                <h1 class="text-4xl font-semibold text-titleRed">Portfolio</h1>
+            <div class="text-center mb-4">
+                <h1 class="text-4xl font-bold text-titleRed">Portfolio</h1>
             </div>
         </div>
-
-        <div class="home-portfolio-web-development">
+        <section id="portfolio-web">
             <div class="mx-auto flex flex-row max-w-6xl justify-center">
-                <div class="text-center mt-14 mb-12">
-                    <h1 class="text-3xl font-semibold text-titleBlack">Web development</h1>
+                <div class="text-center mt-14">
+                    <h1 class="text-3xl font-bold text-titleBlack">Web development</h1>
                 </div>
             </div>
-            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-web-swiss-hockey-fan.png')}}" class="rounded-lg shadow-xl" alt="portfolio-web-swiss-hockey-fan">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Swiss Hockey Fan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-web-fussball-experte.png')}}" class="rounded-lg shadow-xl" alt="portfolio-web-fussball-experte">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Fussball Experte</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-web-chesselhuus.png')}}" class="rounded-lg shadow-xl" alt="portfolio-web-chesselhuus">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Chesselhuus</a>
-                        </div>
-                    </div>
-                </div>
+            @php
+                $portfolioClassNamespace = "App\Helpers\Portfolio\Web";
+                $portfolioList = $portfolioClassNamespace::getSliderList();
+            @endphp
+            <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
+        </section>
+        <section id="portfolio-graphic-design">
+            <div class="text-center mt-20">
+                <h1 class="text-3xl font-bold text-titleBlack">Graphic Design</h1>
             </div>
-        </div>
-
-        <div class="home-portfolio-graphic-design">
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
-                <div class="text-center mt-14 mb-12">
-                    <h1 class="text-3xl font-semibold text-titleBlack">Graphic design</h1>
-                </div>
+            @php
+                $portfolioClassNamespace = "App\Helpers\Portfolio\Graphic";
+                $portfolioList = $portfolioClassNamespace::getSliderList();
+            @endphp
+            <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
+        </section>
+        <section id="portfolio-video">
+            <div class="text-center mt-20">
+                <h1 class="text-3xl font-bold text-titleBlack">Animation Video</h1>
             </div>
-            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-graphic-chimi-changa.png')}}" class="rounded-lg shadow-xl" alt="portfolio-graphic-chimi-changa">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Chimi Changa</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-graphic-der-schrank-spezialist.png')}}" class="rounded-lg shadow-xl" alt="portfolio-graphic-der-schrank-spezialist">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Der Schrank Spezialist</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-graphic-photovoltaik.png')}}" class="rounded-lg shadow-xl" alt="portfolio-graphic-photovoltaik">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Photovoltaik Beratung</a>
-                        </div>
-                    </div>
-                </div>
+            @php
+                $portfolioClassNamespace = "App\Helpers\Portfolio\Video";
+                $portfolioList = $portfolioClassNamespace::getSliderList();
+            @endphp
+            <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
+        </section>
+        <section id="portfolio-video">
+            <div class="text-center mt-20">
+                <h1 class="text-3xl font-bold text-titleBlack">Email Marketing</h1>
             </div>
-        </div>
-
-        <div class="home-portfolio-animation-video">
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
-                <div class="text-center mt-14 mb-12">
-                    <h1 class="text-3xl font-semibold text-titleBlack">Animation video</h1>
-                </div>
+            @php
+                $portfolioClassNamespace = "App\Helpers\Portfolio\Email";
+                $portfolioList = $portfolioClassNamespace::getSliderList();
+            @endphp
+            <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
+        </section>
+        <section id="portfolio-video">
+            <div class="text-center mt-20">
+                <h1 class="text-3xl font-bold text-titleBlack">Logo Design</h1>
             </div>
-            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-animationvideo-comcredit.png')}}" class="rounded-lg shadow-xl" alt="portfolio-animationvideo-comcredit">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Comcredit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-animationvideo-gpa.png')}}" class="rounded-lg shadow-xl" alt="portfolio-animationvideo-gpa">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">GPA</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-animationvideo-satcom.png')}}" class="rounded-lg shadow-xl" alt="portfolio-animationvideo-satcom">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Satcom</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="home-portfolio-email-marketing">
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
-                <div class="text-center mt-14 mb-12">
-                    <h1 class="text-3xl font-semibold text-titleBlack">Email marketing</h1>
-                </div>
-            </div>
-            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-email-chesselhuus.png')}}" class="rounded-lg shadow-xl" alt="portfolio-email-chesselhuus">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Chesselhuus</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-email-rs.png')}}" class="rounded-lg shadow-xl" alt="portfolio-email-rs">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">RS Unternehmungen</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-email-seehof-davos.png')}}" class="rounded-lg shadow-xl" alt="portfolio-email-seehof-davos">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Seehof Davos</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="home-portfolio-email-marketing">
-            <div class="mx-auto flex flex-row max-w-6xl justify-center">
-                <div class="text-center mt-14 mb-12">
-                    <h1 class="text-3xl font-semibold text-titleBlack">Logo Design</h1>
-                </div>
-            </div>
-            <div class="mx-auto flex flex-col md:flex-row max-w-6xl">
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-logo-swiss-hockey-fan.png')}}" class="rounded-lg shadow-xl" alt="portfolio-logo-swiss-hockey-fan">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Swiss Hockey Fan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-logo-flipflop.png')}}" class="rounded-lg shadow-xl" alt="portfolio-logo-flipflop">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Grass FlipFlop</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1 px-6 text-justify">
-                    <div class="flex-1 px-6 justify-center">
-                        <div class="flex justify-center">
-                            <img src="{{asset('img/portfolio-logo-chesselhuus.png')}}" class="rounded-lg shadow-xl" alt="portfolio-logo-chesselhuus">
-                        </div>
-                        <div class="flex justify-center">
-                            <a href="" class="text-lg text-green-400 my-4" target="_blank">Chesselhuus</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            @php
+                $portfolioClassNamespace = "App\Helpers\Portfolio\Logo";
+                $portfolioList = $portfolioClassNamespace::getSliderList();
+            @endphp
+            <x-portfolio-slider :portfolioList="$portfolioList"></x-portfolio-slider>
+        </section>
     </section>
 
     <script>
