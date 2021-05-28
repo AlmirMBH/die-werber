@@ -10,7 +10,7 @@
 
     <section>
         <div class="mx-auto flex flex-row max-w-6xl ">
-            <div class="bus-wrapping-pricing-table px-2">
+            <div class="bus-wrapping-pricing-table px-2 mx-auto">
                 <div class="table-title">
                     <h1 class="text-4xl text-left font-semibold text-center md:text-left pb-2">BUSBESCHRIFTUNGEN</h1>
                 </div>
