@@ -12,10 +12,10 @@
     <section class="pb-36 pt-24">
         <div class="mx-auto flex flex-col md:flex-row max-w-6xl md:divide-x-2 md:divide-purple-400">
             <div class="md:w-2/6 m-4">
-                <p class="font-semibold md:text-right text-2xl pr-4 md:py-20 "> How we do it?</p>
+                <p class="font-semibold md:text-right text-2xl pr-4 md:py-20" data-en="" data-de="">How we do it?</p>
             </div>
             <div class="md:w-3/6 m-4">
-                <p class="break-words md:pl-4 text-lg text-justify" >After we have analyzed your vision and mission,
+                <p class="break-words md:pl-4 text-lg text-justify" data-en="" data-de="">After we have analyzed your vision and mission,
                  understood your goals, and learned about your clients needs, we build your brand identity from scratch.
                  If you already have your brand identity but you are not satisfied with it, let us help you
                  re-brand your business. Our services include consulting, graphic & web design, web development,
