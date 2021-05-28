@@ -18,7 +18,7 @@
     </head>
     <body class="font-nunito">
         <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-2xl p-2">
-            <x-navbar></x-navbar>
+            <x-main-menu> </x-main-menu>
         </header>
 
         <main id="app">
