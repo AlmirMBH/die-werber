@@ -20,16 +20,16 @@
 			<link href="https://fonts.googleapis.com/css?family=Nunito:400%2C700%7CRoboto:400" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
 
 
-			<link rel="stylesheet" type="text/css" href="{{asset('fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css')}}">
-			<link rel="stylesheet" type="text/css" href="{{asset('fonts/font-awesome/css/font-awesome.css')}}">
+			<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+			<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
 			<!-- REVOLUTION STYLE SHEETS -->
-			<link rel="stylesheet" type="text/css" href="{{asset('css/rs6.css')}}">
+			<link rel="stylesheet" type="text/css" href="css/rs6.css">
 			<!-- REVOLUTION LAYERS STYLES -->
 							<style type="text/css"></style>
 			<!-- REVOLUTION JS FILES -->
-			<script type="text/javascript" src="{{asset('js/revolution.tools.min.js')}}"></script>
-			<script type="text/javascript" src="{{asset('js/rs6.min.js')}}"></script>
+			<script type="text/javascript" src="js/revolution.tools.min.js"></script>
+			<script type="text/javascript" src="js/rs6.min.js"></script>
 
 			<script type="text/javascript">function setREVStartSize(t){try{var h,e=document.getElementById(t.c).parentNode.offsetWidth;if(e=0===e||isNaN(e)?window.innerWidth:e,t.tabw=void 0===t.tabw?0:parseInt(t.tabw),t.thumbw=void 0===t.thumbw?0:parseInt(t.thumbw),t.tabh=void 0===t.tabh?0:parseInt(t.tabh),t.thumbh=void 0===t.thumbh?0:parseInt(t.thumbh),t.tabhide=void 0===t.tabhide?0:parseInt(t.tabhide),t.thumbhide=void 0===t.thumbhide?0:parseInt(t.thumbhide),t.mh=void 0===t.mh||""==t.mh||"auto"===t.mh?0:parseInt(t.mh,0),"fullscreen"===t.layout||"fullscreen"===t.l)h=Math.max(t.mh,window.innerHeight);else{for(var i in t.gw=Array.isArray(t.gw)?t.gw:[t.gw],t.rl)void 0!==t.gw[i]&&0!==t.gw[i]||(t.gw[i]=t.gw[i-1]);for(var i in t.gh=void 0===t.el||""===t.el||Array.isArray(t.el)&&0==t.el.length?t.gh:t.el,t.gh=Array.isArray(t.gh)?t.gh:[t.gh],t.rl)void 0!==t.gh[i]&&0!==t.gh[i]||(t.gh[i]=t.gh[i-1]);var r,a=new Array(t.rl.length),n=0;for(var i in t.tabw=t.tabhide>=e?0:t.tabw,t.thumbw=t.thumbhide>=e?0:t.thumbw,t.tabh=t.tabhide>=e?0:t.tabh,t.thumbh=t.thumbhide>=e?0:t.thumbh,t.rl)a[i]=t.rl[i]<window.innerWidth?0:t.rl[i];for(var i in r=a[0],a)r>a[i]&&0<a[i]&&(r=a[i],n=i);var d=e>t.gw[n]+t.tabw+t.thumbw?1:(e-(t.tabw+t.thumbw))/t.gw[n];h=t.gh[n]*d+(t.tabh+t.thumbh)}void 0===window.rs_init_css&&(window.rs_init_css=document.head.appendChild(document.createElement("style"))),document.getElementById(t.c).height=h,window.rs_init_css.innerHTML+="#"+t.c+"_wrapper { height: "+h+"px }"}catch(t){console.log("Failure at Presize of Slider:"+t)}};</script>
 		</head>
@@ -72,7 +72,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;st:360;sp:1000;sR:360;"
 								data-frame_999="o:0;tp:600;st:w;sR:7640;"
 								style="z-index:7;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-overlay.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-overlay.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -116,7 +116,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;sR:10;"
 								data-frame_999="o:0;tp:600;st:w;sR:8690;"
 								style="z-index:6;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -180,7 +180,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;st:360;sp:1000;sR:360;"
 								data-frame_999="o:0;tp:600;st:w;sR:7640;"
 								style="z-index:7;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-overlay.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-overlay.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -224,7 +224,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;sR:10;"
 								data-frame_999="o:0;tp:600;st:w;sR:8690;"
 								style="z-index:6;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -287,7 +287,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;st:360;sp:1000;sR:360;"
 								data-frame_999="o:0;tp:600;st:w;sR:7640;"
 								style="z-index:7;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-overlay.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-overlay.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -331,7 +331,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;sR:10;"
 								data-frame_999="o:0;tp:600;st:w;sR:8690;"
 								style="z-index:6;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -360,7 +360,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1_mask="u:t;"
 								data-frame_999="o:0;st:w;"
 								style="z-index:13;font-family:Roboto;"
-							><img src="{{asset('img-slider/homeslider-graphic-design.png')}}" alt="Slider graphic design" width="405" height="390" data-no-retina>
+							><img src="{{asset('img-slider/homeslider-graphic-design.png')}}"  alt="Slider graphic design" width="405" height="390" data-no-retina>
 							</rs-layer><!--
 -->						</rs-slide>
 						<rs-slide data-key="rs-64" data-title="Slide" data-duration="12000ms" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;" class="particles-js-2" id="particaljs-slide3">
@@ -394,7 +394,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;st:360;sp:1000;sR:360;"
 								data-frame_999="o:0;tp:600;st:w;sR:7640;"
 								style="z-index:7;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-overlay.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-overlay.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -438,7 +438,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;sR:10;"
 								data-frame_999="o:0;tp:600;st:w;sR:8690;"
 								style="z-index:6;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -500,7 +500,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;st:360;sp:1000;sR:360;"
 								data-frame_999="o:0;tp:600;st:w;sR:7640;"
 								style="z-index:7;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-overlay.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-overlay.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -544,7 +544,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;sR:10;"
 								data-frame_999="o:0;tp:600;st:w;sR:8690;"
 								style="z-index:6;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -607,7 +607,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;st:360;sp:1000;sR:360;"
 								data-frame_999="o:0;tp:600;st:w;sR:7640;"
 								style="z-index:7;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-overlay.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-overlay.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -651,7 +651,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;sR:10;"
 								data-frame_999="o:0;tp:600;st:w;sR:8690;"
 								style="z-index:6;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -713,7 +713,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;st:360;sp:1000;sR:360;"
 								data-frame_999="o:0;tp:600;st:w;sR:7640;"
 								style="z-index:7;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-overlay.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-overlay.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -757,7 +757,7 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 								data-frame_1="tp:600;sR:10;"
 								data-frame_999="o:0;tp:600;st:w;sR:8690;"
 								style="z-index:6;font-family:Roboto;"
-							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}" data-no-retina>
+							><img src="{{asset('img-slider/slider-bg-shape-one.png')}}"  data-no-retina>
 							</rs-layer><!--
 
 							--><rs-layer
@@ -859,3 +859,4 @@ We can be your light at end of the tunnel. Let <br>us help you create your outst
 					</body>
 
 		</html>
+
