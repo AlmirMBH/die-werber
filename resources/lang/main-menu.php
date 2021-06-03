@@ -1,6 +1,5 @@
 <?php
 
-
 return [
     'en' => [
         'home' => 'Home',
