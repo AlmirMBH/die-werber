@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "3D Logo";
         $bottomSectionTextEnglish = "Living in a 2D world is no longer the only option for contemporary businesses. Although it might be funny, it is narrow, bordered by pretty strict lines, and somewhat empty. Free your logo and give it another dimension for a better experience of your brand.  It is simple, go 3D and let your brand live outside the 2D box. Your business deserves it.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Verbessern Sie Ihr Logo, um Ihre Wiedererkennung zu verbessern";
+        $topSectionTitleGerman = "Ansprechend, atraktiv, auffällig und inspirierend – Ihr 3D-Logo";
+        $topSectionTextGerman = "Ihr Logo rockt, aber Ihr 3D-Logo würde noch mehr rocken. Es ist immer eine coole Idee, die Attraktivität Ihres Logos zu steigern, um Kunden anzulocken. Ihr neues 3D-Logo könnte Ihre Marke in eine neue Geschäftsumgebung bringen und Ihnen dabei helfen, nicht mit anderen Marken vergleichbar zu sein, die nicht gut genug rocken.";
+        $bottomSectionTitleGerman = "3D-Logo";
+        $bottomSectionTextGerman = "Das Leben in einer 2D-Welt ist nicht mehr die einzige Option für moderne Unternehmen. Obwohl es lustig sein mag, ist es schmal, von ziemlich strengen Linien begrenzt und etwas leer. Geben Sie Ihr Logo frei und verleihen Sie ihm eine neue Dimension, um Ihre Marke noch besser zu erleben. Es ist ganz einfach: Gehen Sie zu 3D und lassen Sie Ihre Marke ausserhalb der 2D-Box leben. Ihr Unternehmen hat es verdient.";
 
         // images and alts
         $topSectionImage = "logo-3d-info.png";

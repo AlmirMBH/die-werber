@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Illustrations";
         $bottomSectionTextEnglish = "Photography, drawings, patterns and whatnot combined into illustrations is a magical dimension of graphic design. It can enchant your clients and get your business out of the labyrinth of business challenges to the holly land of success and eternal business happiness.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Illustrieren Sie Ihre Inhalte, um Ihren Weg zu Ihrer Vision zu veranschaulichen";
+        $topSectionTitleGerman = "Verwenden Sie Ihre 10 Sekunden, um Aufmerksamkeit zu erregen und Ihre Nachricht zu übermitteln";
+        $topSectionTextGerman = "Sie möchten, dass die Mehrheit der Menschen Ihren Inhalt mag? Cool! Sie wissen ja, dass 70% der Menschen „Visuell-Lernende“ sind und unser Team von Designfreunden weiss, was diese brauchen. Lassen Sie uns Ihre Ideen komprimieren und mit verschiedenen Konzepten kombinieren, um einen einzigartigen Inhalt zu erhalten, der den Glanz selbst in den Schatten stellt.";
+        $bottomSectionTitleGerman = "Illustrationen";
+        $bottomSectionTextGerman = "Fotografien, Zeichnungen, Muster und was nicht in Illustrationen kombiniert ist, ist eine magische Dimension des Grafikdesigns. Es kann Ihre Kunden verzaubern und Ihr Unternehmen aus dem Labyrinth der geschäftlichen Herausforderungen in das Land des Erfolgs und des ewigen Geschäftsglücks führen.";
 
         // images and alts
         $topSectionImage = "graphic-illustrations-info.png";

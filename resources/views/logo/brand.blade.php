@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Visual Identity";
         $bottomSectionTextEnglish = "By defining visual identity of your brand you actually define the way you do business. Powerful businesses have powerful visual identity that brings about many benefits such as recognition and access to markets they would not otherwise be able to reach. Give your business a chance to become powerful. Let us design visual identity guidelines for your business.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Perfektionieren Sie Ihre Markenidentität, um Ihre Geschäftsleistung zu perfektionieren";
+        $topSectionTitleGerman = "Stellen Sie sich Ihr Logo auf den Tribünen Ihres Lieblingsteams vor!";
+        $topSectionTextGerman = "Haben Sie sich jemals gefragt, wie Ihr Logo auf bestimmten Werbematerialien, Messeständen oder Tribünen aussehen würde, während Ihr Lieblingsteam spielt? Es gibt einen einfachen Weg, es herauszufinden. Lassen Sie uns Ihre Richtlinien zur visuellen Identität entwerfen und Ihnen dabei helfen, alle Möglichkeiten zu konzipieren, wie Sie Ihre Markenidentität nutzen können, um Ihre Geschäftsleistung zu steigern.";
+        $bottomSectionTitleGerman = "Richtlinien zur visuellen Identität";
+        $bottomSectionTextGerman = "Indem Sie die visuelle Identität Ihrer Marke definieren, bestimmen Sie tatsächlich, wie Sie Geschäfte machen. Leistungsstarke Unternehmen verfügen über eine leistungsstarke visuelle Identität, die zahlreiche Vorteile mit sich bringt, z. B. Anerkennung und Zugang zu Märkten, die sie sonst nicht erreichen könnten. Geben Sie Ihrem Unternehmen die Chance, mächtig zu werden. Lassen Sie uns Richtlinien zur visuellen Identität für Ihr Unternehmen entwerfen.";
 
         // images and alts
         $topSectionImage = "visual-identity-info.png";

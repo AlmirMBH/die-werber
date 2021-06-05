@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Hosting";
         $bottomSectionTextEnglish = "Far far away, behind the mountains of  data, where no hacker has ever set foot, there exist our servers ready to host your website in the most secured and mysterious location. Use the privilege of storing your web content with us!";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "Top section title German";
-        $topSectionTextGerman = "Top section text German";
+        $titleGerman = "Hosten Sie Ihren Platz im Web, um Ihren Platz in der Geschäftswelt zu hosten";
+        $topSectionTitleGerman = "Hosten Sie Ihre Website, um Ihre Geschäftspartner zu hosten";
+        $topSectionTextGerman = "Es ist keine leichte Aufgabe, Ihre Website in der heutigen, wettbewerbsintensiven Geschäftswelt, ohne Unterbrüche (was zu Kundenverlust führen kann) zu betreiben. Zu diesem Zweck haben wir Pakete in einer Vielzahl von Festplattenspeicher und monatlichen Datenübertragungsgrössen erstellt, die jederzeit aktualisiert werden können. Ihre Website soll nicht die Ursache Ihrer Albträume sein. Lassen Sie uns Ihnen unsere neuesten Technologien und Dienstleistungen zur Verfügung stellen, damit Ihre Website bemerkt und geschätzt werden kann…";
         $bottomSectionTitleGerman = "Hosting";
-        $bottomSectionTextGerman = "Hosting German";
+        $bottomSectionTextGerman = "Weit weg, hinter den Datenbergen, in denen noch kein Hacker Fuss gefasst hat, gibt es unsere Server, die bereit sind, Ihre Website an einem besonders sicheren und mysteriösen Ort zu hosten. Nutzen Sie das Privileg, Ihre Webinhalte bei uns zu speichern!";
         // images and alts
         $bottomSectionImage = "web-hosting-package.png";
         $bottomSectionAlt = "web-hosting-package";

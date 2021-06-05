@@ -54,10 +54,15 @@
             <img src="{{ asset('img/faqsupport.png') }}" alt="support" class="block ml-auto">
         </div>
         <div class="flex-1 support-content mt-7 ml-10">
-            <h3 class="text-titleRed text-3xl font-bold font-weight-bolder text-left mb-3 mt-5 sm:mt-0 text-center sm:text-left">Need help?</h3>
-            <h2 class="text-titleBlack text-3xl font-weight-bolder break-words text-wrap px-2 sm:px-0 text-center sm:text-left">Our support team will assist you</h2>
+            <h3 class="text-titleRed text-3xl font-bold font-weight-bolder text-left mb-3 mt-5 sm:mt-0 text-center sm:text-left"
+            data-en="Need help?" data-de="Brauchen Sie Hilfe?">Brauchen Sie Hilfe?</h3>
+            <h2 class="text-titleBlack text-3xl font-weight-bolder break-words text-wrap px-2 sm:px-0 text-center sm:text-left"
+            data-en="Our support team will assist you" data-de="Unser Support-Team hilft Ihnen gerne weiter">
+                Unser Support-Team hilft Ihnen gerne weiter
+            </h2>
             <div class="button text-center sm:text-left mt-16" data-aos="fade-up" data-aos-duration="2000">
-                <a href="{{route('contact')}}" class="bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl py-4 px-12">Call us now</a>
+                <a href="{{route('contact')}}" class="bg-gradient-to-r from-red-500 to-red-900 text-white rounded-t-3xl rounded-b-3xl py-4 px-12"
+                data-en="Call us now" data-de="Rufen Sie uns jetzt an">Rufen Sie uns jetzt an</a>
             </div>
         </div>
     </div>

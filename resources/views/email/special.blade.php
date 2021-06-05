@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Special";
         $bottomSectionTextEnglish = "Let us help you write your content in multiple languages and place it in a customized layout with your favorite colors and shapes. The design of the web version of your newsletter will satisfy the taste of the most demanding clients. In addition to your E-mailing list, we will provide you with our own, and after we send your content to the clients, the statistical analysis will be available to you within ten working days.";
 
-        $titleGerman = "Title German";
-        $topSectionTitleGerman = "Top section title German";
-        $topSectionTextGerman = "Top section text German";
-        $bottomSectionTitleGerman = "Bottom section title German";
-        $bottomSectionTextGerman = "Bottom section text German";
+        $titleGerman = "Erfolgreiche Marken verschicken besondere E-Mails";
+        $topSectionTitleGerman = "Stück für Stück und du bekommst eine grossartige Marke…";
+        $topSectionTextGerman = "Die Mehrheit der grossen Marken hat ein gemeinsames Merkmal, spezielle E-Mails. Der Inhalt, das Layout, die Webversion und mehrere Sprachen machen die E-Mails zu etwas Besonderem. Wir wissen, dass es manchmal schwierig sein kann, eine hervorragende E-Mail oder einen Newsletter zu erstellen. Deshalb ist unser Team immer für Sie da. Lassen Sie uns Ihnen helfen, einige der attraktivsten und auffälligsten E-Mails in Ihrer Branche zu versenden.";
+        $bottomSectionTitleGerman = "Special";
+        $bottomSectionTextGerman = "Wir helfen Ihnen dabei, Ihre Inhalte in mehreren Sprachen zu verfassen und in einem benutzerdefinierten Layout mit Ihren bevorzugten Farben und Formen zu platzieren. Das Design der Webversion Ihres Newsletters wird den Geschmack der anspruchsvollsten Kunden befriedigen. Zusätzlich zu Ihrer E-Mail-Liste stellen wir Ihnen unsere eigene Liste zur Verfügung. Nachdem wir Ihre Inhalte an die Kunden gesendet haben, steht Ihnen die statistische Analyse innerhalb von zehn Arbeitstagen zur Verfügung.";
 
         // images and alts
         $topSectionImage = "email-special-info.png";

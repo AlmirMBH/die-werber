@@ -1,3 +1,4 @@
+let language;
 function changeLanguage(language){
     let elements = document.querySelectorAll("[data-" + language + "]");
 
@@ -6,3 +7,6 @@ function changeLanguage(language){
         elements[i].innerHTML = text;
     }
 }
+
+
+

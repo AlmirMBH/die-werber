@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "3D Animations";
         $bottomSectionTextEnglish = "Three-dimensional models, animations or geometric shapes can be combined into a mystical world of your own. Provide your audience with the opportunity to get a real insight into what you do.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Geben Sie Ihrem Video die dritte Dimension, um Ihrem Unternehmen eine attraktive Dimension zu verleihen";
+        $topSectionTitleGerman = "Lassen Sie Ihre Kunden ihre neuen Büros oder Veranstaltungstage im Voraus sehen!";
+        $topSectionTextGerman = "Geschichten erzählen und Kunden die Möglichkeit geben, ihre Produkte und Dienstleistungen zu visualisieren, ist ein Markenzeichen grosser Marken. Unsere Videogrossmeister werden stundenlang kreative Arbeit investieren, um ein herausragendes Video zu produzieren, das Ihrem Publikum gefallen wird.";
+        $bottomSectionTitleGerman = "3D Animation";
+        $bottomSectionTextGerman = "Dreidimensionale Modelle, Animationen oder geometrische Formen können zu einer eigenen mystischen Welt kombiniert werden. Bieten Sie Ihrem Publikum die Möglichkeit, einen echten Einblick in Ihre Aktivitäten zu erhalten.";
 
         // images and alts
         $topSectionImage = "video-3d-info.png";

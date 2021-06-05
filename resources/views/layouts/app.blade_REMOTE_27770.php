@@ -9,25 +9,28 @@
         <link href="{{ asset('css/general.css') }}" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <script src="{{asset('js/languages.js')}}"></script>
-        <script src="https://use.fontawesome.com/aa9bd40b1d.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="{{asset('js/languages.js')}}"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://use.fontawesome.com/aa9bd40b1d.js"></script>
         <title>Die Werber - @yield('title')</title>
     </head>
     <body class="font-nunito">
         <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-2xl z-10">
             <x-main-menu> </x-main-menu>
         </header>
+
         <main id="app">
             @yield('content')
+
             <div class="flex flex-col w-2/3 mx-auto mb-24 mt-24 tracking-wide">
-                <a href="#top" id="bottom" class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-red-900 hover:bg-red-900 px-12 py-2">Go to Top</a>
+                <a href="#top" id="bottom" class="inline-block max-w-xs self-center text-center text-red-900 hover:text-white no-underline border rounded-full border-red-900 hover:border-darkGreen hover:shadow-lg hover:bg-darkGreen px-12 py-2 ">Go to Top</a>
             </div>
-            <x-contact-section-pages></x-contact-section-pages>
             <x-bottom-menu-bar></x-bottom-menu-bar>
         </main>
-        <x-footer></x-footer>
+            <x-footer></x-footer>
     </body>
 </html>
 <script>

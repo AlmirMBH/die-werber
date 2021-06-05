@@ -4,7 +4,7 @@
 @section('content')
     @php
         $titleEnglish = "Let us analyze your website <span class='text-titleBlack'><br> FREE OF CHARGE </span>";
-        $titleGerman = "German title";
+        $titleGerman = "Wir analysieren Ihre Webseite KOSTENLOS";
     @endphp
 
     <x-title-section-pages :titleEnglish="$titleEnglish" :titleGerman="$titleGerman"></x-title-section-pages>
