@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Web Shop";
         $bottomSectionTextEnglish = "Whether you want to sell online, in your store, or out of the comfort of your home, we will provide you with the best and most attractive solution. Tell us what you sell, your favorite colors and shapes, and we will create the most creative web shop that offers unparalleled services for the most discerning clients.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Öffnen Sie Ihren Webshop, um neue Möglichkeiten zu eröffnen";
+        $topSectionTitleGerman = "Zwei Milliarden Käufer sind nur einen Klick von Ihnen entfernt!";
+        $topSectionTextGerman = "Eine Reihe von Online-Käufern scheinen riesig zu sein, und es wird sicherlich weiter wachsen. Die Mehrheit der Social-Media-Nutzer tätigen ihre Einkäufe oder kaufen die Produkte über soziale Netzwerke. Dies kann Ihre Möglichkeit sein, Ihre Kundenbasis zu erweitern und wie nie zuvor zu verkaufen. Ihre potenziellen Kunden sind nur einen Klick von Ihnen entfernt. Bevor Sie sich erlauben, daran zu zweifeln, testen Sie es…";
+        $bottomSectionTitleGerman = "Webmarkt";
+        $bottomSectionTextGerman = "Egal, ob Sie online, in Ihrem Geschäft oder aus dem Komfort Ihres Hauses verkaufen möchten, wir bieten Ihnen die beste und attraktivste Lösung an. Sagen Sie uns, was Sie verkaufen, Ihre Lieblingsfarben und Formen, und wir werden den kreativsten Webshop erstellen, der unvergleichliche Dienstleistungen für die anspruchsvollsten Kunden bietet.";
 
         // images and alts
         $topSectionImage = "web-shop-info.png";

@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Advanced";
         $bottomSectionTextEnglish = "Writing content and placing it in a customized layout with your favorite colors and shapes is what we do best. After receiving your emails, your clients will feel as if they finally see the road signs on a difficult road that lead them straight to their destination, your brand. The statistical analysis will be available to you within ten working days and you will know exactly which direction towards your success you want to take.";
 
-        $titleGerman = "Title German";
-        $topSectionTitleGerman = "Top section title German";
-        $topSectionTextGerman = "Top section text German";
-        $bottomSectionTitleGerman = "Bottom section title German";
-        $bottomSectionTextGerman = "Bottom section text German";
+        $titleGerman = "Erweitern Sie Ihr E-Mail-Marketing, um Ihre Kundenbasis zu erweitern";
+        $topSectionTitleGerman = "Advanced E-Mail";
+        $topSectionTextGerman = "Wir alle wissen, dass E-Mails ein hervorragendes Kommunikationsmittel sind, aber wir betrachten sie kaum als Umfragen. Alle E-Mails, die Sie an Ihre Zielgruppe senden, können Fragebögen sein, die Ihnen mitteilen, wer Ihre Zielgruppe ist und was Ihre Kunden von Ihnen erwarten. Und wenn Sie verstehen, was Ihr Publikum will, wissen Sie, was Ihr nächster Schritt ist.";
+        $bottomSectionTitleGerman = "Advanced";
+        $bottomSectionTextGerman = "Das Schreiben von Inhalten und das Platzieren in einem benutzerdefinierten Layout mit Ihren bevorzugten Farben und Formen ist das, was wir am besten können. Nach Erhalt Ihrer E-Mails werden Ihre Kunden das Gefühl haben, endlich die Verkehrszeichen auf einer schwierigen Strasse zu sehen, die sie direkt zu ihrem Ziel, Ihrer Marke, führen. Die statistische Analyse steht Ihnen innerhalb von zehn Arbeitstagen zur Verfügung und Sie wissen genau, in welche Richtung Sie Ihren Erfolg verfolgen möchten.";
 
         // images and alts
         $topSectionImage = "email-advanced-info.png";

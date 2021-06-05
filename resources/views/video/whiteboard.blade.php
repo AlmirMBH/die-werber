@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Whiteboard Drawings";
         $bottomSectionTextEnglish = "It takes only a split second for people to decide if they will watch the rest of your video or not. Making your story natural part of your brand can be your advertising game changer and adding a little bit of humor and variety will help your video stand out among many others.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Zeichnen Sie Ihre Geschäftsprozesse, um Ihren Weg zu neuen Kunden zu finden";
+        $topSectionTitleGerman = "Zeichnen Sie, was Ihre Marke tut, und halten Sie die Neugier Ihres Publikums am Leben!";
+        $topSectionTextGerman = "Durch das Zeichnen und Illustrieren Ihrer Geschäftsprozesse wird Ihre Marke wieder lebendig. Jede Phase Ihres Geschäftsprozesses, von Ihrer Idee und Forschung bis zum Endprodukt, hat das Potenzial, ein anderes Licht darauf zu werfen, was Sie tun und was Sie Ihren Kunden bieten. Helfen Sie Ihrem Publikum, sich dessen bewusst zu werden, was Sie für sie tun können.";
+        $bottomSectionTitleGerman = "Whiteboardzeichnungen";
+        $bottomSectionTextGerman = "Es dauert nur einen Sekundenbruchteil, bis die Nutzer entschieden haben, ob sie den Rest Ihres Videos sehen wollen oder nicht. Indem Sie Ihre Geschichte zu einem natürlichen Bestandteil Ihrer Marke machen, können Sie Ihr Werbespiel verändern, und wenn Sie ein wenig Humor und Abwechslung hinzufügen, können Sie Ihr Video von vielen anderen abheben.";
 
         // images and alts
         $topSectionImage = "video-whiteboard-info.png";

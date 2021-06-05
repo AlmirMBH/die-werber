@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Print materials";
         $bottomSectionTextEnglish = "As the old saying goes, “If you want something done right, you have to let Die Werber do it”. Years of experience make us capable of converting your ideas into promo miracles. Let our team of printing maestros help you achieve recognition and secure a long-lasting place in the memory of your clients.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Drucken Sie Ihre Materialien aus, um Ihr Ticket für die Geschäftswelt auszudrucken";
+        $topSectionTitleGerman = "Lassen Sie Ihre Plakate, Broschüren und Flyer Ihre Botschaft in die entlegensten Regionen der Geschäftswelt tragen";
+        $topSectionTextGerman = "Es ist nicht immer einfach, Ihre Kunden zu erreichen, aber die Verwaltung der Inhalte, die die richtige Botschaft vermitteln, während Sie Ihre Kunden erreichen, könnte ein Kinderspiel sein. Wir helfen Ihnen dabei, sicherzustellen, dass Ihre Broschüren, Flyer und Poster die beste Design- und Qualitätsbotschaft in der Druckwelt vermitteln.";
+        $bottomSectionTitleGerman = "Druckmaterialien";
+        $bottomSectionTextGerman = "Wie das alte Sprichwort sagt: “Wenn du etwas richtig machen willst, musst du es Die Werber tun lassen”. Durch jahrelange Erfahrung sind wir in der Lage, Ihre Ideen in Werbewunder umzusetzen. Lassen Sie sich von unserem Team von Druckmaestros zu Wiedererkennungswerten verhelfen und sichern Sie sich einen dauerhaften Platz im Gedächtnis Ihrer Kunden.";
 
         // images and alts
         $topSectionImage = "graphic-print-info.png";

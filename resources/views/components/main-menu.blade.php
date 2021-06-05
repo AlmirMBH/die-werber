@@ -107,10 +107,10 @@
 
   </style>
 </head>
-<body class="bg-gray-200 font-sans leading-normal tracking-normal">
+<body class="font-sans leading-normal tracking-normal">
 
-<nav class="relative bg-white border-b-2  border-gray-300 text-gray-900">
-      <div class="container mx-auto flex justify-between">
+<nav class="relative text-gray-900 bg-white">
+      <div class="container mx-auto flex justify-between fixed bg-white">
         <div class="relative block p-4 lg:p-6 text-xl text-blue-600 font-bold">
             <img src="{{asset('img/die-werber-logo.png')}}" alt="die-werber" class="h-16">
         </div>
@@ -122,7 +122,7 @@
                 // If possible, adjust only this part of code: "App\Helpers\Languages\MainMenu"
               $languages = App\Helpers\Languages\MainMenu::getLanguages();
           @endphp
-    <ul class="flex">
+    <ul class="flex bg-white">
 
       <!--Regular Link-->
       <li class="hover:bg-blue-800 hover:text-white">

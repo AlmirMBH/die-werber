@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Web Design";
         $bottomSectionTextEnglish = "Whether you need a simple static page or complex web-based internet applications and e-commerce we are the best and most cost-efficient option for you.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Gestalten Sie Ihre Website und Inhalte, um Ihre Geschäftsmöglichkeiten zu gestalten";
+        $topSectionTitleGerman = "Bereit für Webmagie?";
+        $topSectionTextGerman = "Unsere Arbeit ist das Ergebnis unserer Leidenschaft, klugen Planung und aussergewöhnlichen persönlichen Engagements. Das verrückteste Webdesign hat die Sympathien unserer Kunden immer wieder gewonnen. Begeben Sie sich auf eine lebhafte Reise und erfahren Sie, warum…";
+        $bottomSectionTitleGerman = "Webdesign";
+        $bottomSectionTextGerman = "Ob Sie eine einfache statische Seite, komplexe webbasierte Internetanwendung oder E-Commerce benötigen, wir sind die beste und kostengünstigste Option für Sie.";
 
         // images and alts
         $topSectionImage = "web-design-info.png";

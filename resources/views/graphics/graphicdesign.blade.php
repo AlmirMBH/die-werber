@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Graphic Design";
         $bottomSectionTextEnglish = "Modern promo materials have always been in and unique graphic solutions are the first thing that attracts attention. Let our team of graphic grand masters pack your vision and values into your visual identity and assist you in attracting the attention of your clients and  competitors.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Entwerfen Sie Ihre Inhalte, um Ihre Geschäftsmöglichkeiten zu entwerfen";
+        $topSectionTitleGerman = "Ihr grafischer Inhalt ist der aufrichtigste Vermittler zwischen Ihnen und Ihrem Kunden!";
+        $topSectionTextGerman = "Wie das alte Sprichwort sagt: “Taten sagen mehr als Worte”. Lassen Sie uns Ihre Botschaften mit Fotos, Illustrationen und Zeichnungen kombinieren und hinterlassen Sie einen unvergesslichen Eindruck bei Ihren Kunden. Ein unwiderstehlicher Eindruck, der unverbesserliche Phlegamen zu kuriosen Entdeckern werden lässtist ist unser Ziel.";
+        $bottomSectionTitleGerman = "Grafikdesign";
+        $bottomSectionTextGerman = "Moderne Werbematerialien und einzigartige Grafiklösungen sind das Erste, was Aufmerksamkeit erregt. Lassen Sie unser Team von Grafik-Grossmeistern Ihre Visionen und Werte in Ihre visuelle Identität packen und helfen Sie dabei, die Aufmerksamkeit Ihrer Kunden und Konkurrenten auf sich zu ziehen.";
 
         // images and alts
         $topSectionImage = "graphic-design-info.png";

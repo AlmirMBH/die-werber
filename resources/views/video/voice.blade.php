@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Voice Test";
         $bottomSectionTextEnglish = "The louder your voice is, the more it resonates with your clients. Your voice embodies your vision and helps you grow your audience. Let us give your business a booming voice that shatters the glasses and market boundaries to your audience.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Ihre Geschäftsstimme ist die Widerspiegelung Ihrer eigenen Stimme";
+        $topSectionTitleGerman = "Lassen Sie sich von uns die Stimmen Ihres Wettbewerbs entlocken…";
+        $topSectionTextGerman = "Eine klare, verständliche und angenehme Stimme sollte Teil der Persönlichkeit eines jeden Unternehmens sein. Die richtige Stimme macht Ihre Nachrichten interessanter und ansprechender für Ihre Kunden. Es hilft ihnen, Ihr Geschäft zu verstehen und sich mit Ihrer Marke auseinanderzusetzen.";
+        $bottomSectionTitleGerman = "Stimmproben";
+        $bottomSectionTextGerman = "Je lauter Ihre Stimme ist, desto mehr spricht sie Ihre Kunden an. Ihre Stimme schafft Ihre Vision und hilft Ihnen, Ihr Publikum zu vergrössern. Geben Sie Ihrem Unternehmen eine boomende Stimme, die die Brille und Marktgrenzen Ihres Publikums sprengt.";
 
         // images and alts
         $topSectionImage = "video-voice-info.png";

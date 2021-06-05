@@ -9,11 +9,11 @@
         $bottomSectionTitleEnglish = "Logo Design";
         $bottomSectionTextEnglish = "We are a creative team ready to do outstanding work for your brand and teamwork is our most powerful weapon. We follow the latest trends and turn your ideas into reality. Your deadline is our priority.";
 
-        $titleGerman = "German title";
-        $topSectionTitleGerman = "German top title";
-        $topSectionTextGerman = "German top section text";
-        $bottomSectionTitleGerman = "German bottom section title";
-        $bottomSectionTextGerman = "German bottom section text";
+        $titleGerman = "Lassen Sie Ihr Logo die richtige Geschichte über Sie erzählen";
+        $topSectionTitleGerman = "Lassen Sie uns etwas Einzigartiges schaffen – Ihr Logo!";
+        $topSectionTextGerman = "Wir helfen Ihnen dabei, ein erkennbares Mitglied Ihrer Branche zu werden. Teilen Sie uns Ihre Unternehmensfarben, -werte und -visionen mit und wir erstellen ein aussagekräftiges Logo für Ihr Unternehmen. Ein Logo, das widerspiegelt, wer Sie sind und wofür Sie stehen.";
+        $bottomSectionTitleGerman = "Logo-design";
+        $bottomSectionTextGerman = "Wir sind ein kreatives Team, das bereit ist, herausragende Arbeit für Ihre Marke zu leisten. Teamwork ist unsere stärkste Waffe. Wir folgen den neuesten Trends und setzen Ihre Ideen in die Realität um. Ihre Frist ist unsere Priorität.";
 
         // images and alts
         $topSectionImage = "logo-design-info.png";
