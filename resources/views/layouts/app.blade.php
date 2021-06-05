@@ -15,9 +15,10 @@
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="https://use.fontawesome.com/aa9bd40b1d.js"></script>
+{{--        <script>function checkLanguage(){alert("funcking js")}</script>--}}
         <title>Die Werber - @yield('title')</title>
     </head>
-    <body class="font-nunito">
+    <body class="font-nunito" onload="checkLanguage()">
         <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-2xl p-2 z-10">
             <x-main-menu> </x-main-menu>
         </header>

@@ -15,7 +15,7 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Die Werber - @yield('title')</title>
     </head>
-    <body class="font-nunito">
+    <body class="font-nunito" onload="checkLanguage()">
         <header id="top" class="w-full flex flex-col fixed sm:relative bg-white pin-t pin-r pin-l shadow-2xl z-10">
             <x-main-menu> </x-main-menu>
         </header>
