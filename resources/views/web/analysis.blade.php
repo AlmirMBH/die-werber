@@ -3,10 +3,11 @@
 @section('title', 'Analysis')
 @section('content')
     @php
-        $title = "Let us analyze your website <span class='text-titleBlack'><br> FREE OF CHARGE </span>";
+        $titleEnglish = "Let us analyze your website <span class='text-titleBlack'><br> FREE OF CHARGE </span>";
+        $titleGerman = "German title";
     @endphp
 
-    <x-title-section-pages :title="$title"></x-title-section-pages>
+    <x-title-section-pages :titleEnglish="$titleEnglish" :titleGerman="$titleGerman"></x-title-section-pages>
 
     <section>
         <div class="analysis-text max-w-6xl mx-auto">

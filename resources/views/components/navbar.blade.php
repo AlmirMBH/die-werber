@@ -1,3 +1,4 @@
+{{--this class is not used any more--}}
 <nav id="site-menu" class="flex flex-col sm:flex-row w-full justify-between items-center px-4 py-1 sm:px-6 bg-white shadow sm:shadow-none">
     <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
         <div class="ml-10 text-center">

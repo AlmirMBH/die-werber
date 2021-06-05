@@ -3,8 +3,9 @@
 @section('title', 'Prices')
 @section('content')
     @php
-        $title = "Prices";
+        $titleEnglish = "Prices";
+        $titleGerman = "Preise";
     @endphp
 
-    <x-title-section-pages :title="$title"></x-title-section-pages>
+    <x-title-section-pages :titleEnglish="$titleEnglish" :titleGerman="$titleGerman"></x-title-section-pages>
 @endsection

@@ -3,21 +3,33 @@
 @section('title', '2D Animations')
 @section('content')
     @php
-        $title = "Animate <span class='text-titleBlack'> your video content to animate </span> your clients";
-        $topSectionTitle = "Animated content grabs attention!";
-        $topSectionText = "Video content has a lot of potential to attract attention of your audience and investing a little bit more effort can help your video to
-        go viral. Let us help your brand become a smash hit and get the place in your branch it deserves.";
+        $titleEnglish = "Animate <span class='text-titleBlack'> your video content to animate </span> your clients";
+        $topSectionTitleEnglish = "Animated content grabs attention!";
+        $topSectionTextEnglish = "Video content has a lot of potential to attract attention of your audience and investing a little bit more effort can help your video to go viral. Let us help your brand become a smash hit and get the place in your branch it deserves.";
+        $bottomSectionTitleEnglish = "2D Animations";
+        $bottomSectionTextEnglish = "The world of animations opens the door to an avenue of opportunities for your business, and your favorite character can even become a member of your team in it. Let the world see the funniest version of your brand and connect with you on a new level?";
+
+        $titleGerman = "German title";
+        $topSectionTitleGerman = "German top title";
+        $topSectionTextGerman = "German top section text";
+        $bottomSectionTitleGerman = "German bottom section title";
+        $bottomSectionTextGerman = "German bottom section text";
+
+        // images and alts
         $topSectionImage = "video-2d-info.gif";
         $topSectionAlt = "video-2d-info";
-        $bottomSectionTitle = "2D Animations";
-        $bottomSectionText = "The world of animations opens the door to an avenue of opportunities for your business, and your favorite character can even become
-        a member of your team in it. Let the world see the funniest version of your brand and connect with you on a new level?";
         $bottomSectionImage = "video-2d-package.png";
         $bottomSectionAlt = "video-2d-package";
     @endphp
 
-    <x-title-section-pages :title="$title"></x-title-section-pages>
-    <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
+    <x-title-section-pages :titleEnglish="$titleEnglish" :titleGerman="$titleGerman"></x-title-section-pages>
+    <x-top-section-pages
+        :topSectionTitleEnglish="$topSectionTitleEnglish" :topSectionTextEnglish="$topSectionTextEnglish" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"
+        :topSectionTitleGerman="$topSectionTitleGerman" :topSectionTextGerman="$topSectionTextGerman"
+    ></x-top-section-pages>
     <x-mid-section-pages></x-mid-section-pages>
-    <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
+    <x-bottom-section-pages
+        :bottomSectionTitleEnglish="$bottomSectionTitleEnglish" :bottomSectionTextEnglish="$bottomSectionTextEnglish" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"
+        :bottomSectionTitleGerman="$bottomSectionTitleGerman" :bottomSectionTextGerman="$bottomSectionTextGerman"
+    ></x-bottom-section-pages>
 @endsection
