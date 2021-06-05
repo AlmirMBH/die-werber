@@ -3,21 +3,30 @@
 @section('title', 'Voice Test')
 @section('content')
     @php
-        $title = "Your business voice <span class='text-titleBlack'> is the reflection of </span> your own voice";
-        $topSectionTitle = "Let us help you outvoice the voices of your competition...";
-        $topSectionText = "Clear, understandable and pleasant voice should be part of the personality of every company. The right voice makes your messages
-        more interesting and appealing to your clients. It helps them understand your business and engage with your brand.";
+        $titleEnglish = "Your business voice <span class='text-titleBlack'> is the reflection of </span> your own voice";
+        $topSectionTitleEnglish = "Let us help you outvoice the voices of your competition...";
+        $topSectionTextEnglish = "Clear, understandable and pleasant voice should be part of the personality of every company. The right voice makes your messages more interesting and appealing to your clients. It helps them understand your business and engage with your brand.";
+        $bottomSectionTitleEnglish = "Voice Test";
+        $bottomSectionTextEnglish = "The louder your voice is, the more it resonates with your clients. Your voice embodies your vision and helps you grow your audience. Let us give your business a booming voice that shatters the glasses and market boundaries to your audience.";
+
+        $titleGerman = "German title";
+        $topSectionTitleGerman = "German top title";
+        $topSectionTextGerman = "German top section text";
+        $bottomSectionTitleGerman = "German bottom section title";
+        $bottomSectionTextGerman = "German bottom section text";
+
+        // images and alts
         $topSectionImage = "video-voice-info.png";
         $topSectionAlt = "video-voice-info";
-        $bottomSectionTitle = "Voice Test";
-        $bottomSectionText = "The louder your voice is, the more it resonates with your clients. Your voice embodies your vision and helps you grow your audience.
-        Let us give your business a booming voice that shatters the glasses and market boundaries to your audience.";
         $bottomSectionImage = "video-voice-package.png";
         $bottomSectionAlt = "video-voice-package";
     @endphp
 
-    <x-title-section-pages :title="$title"></x-title-section-pages>
-    <x-top-section-pages :topSectionTitle="$topSectionTitle" :topSectionText="$topSectionText" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"></x-top-section-pages>
+    <x-title-section-pages :titleEnglish="$titleEnglish" :titleGerman="$titleGerman"></x-title-section-pages>
+    <x-top-section-pages
+        :topSectionTitleEnglish="$topSectionTitleEnglish" :topSectionTextEnglish="$topSectionTextEnglish" :topSectionImage="$topSectionImage" :topSectionAlt="$topSectionAlt"
+        :topSectionTitleGerman="$topSectionTitleGerman" :topSectionTextGerman="$topSectionTextGerman"
+    ></x-top-section-pages>
 
     <section>
         <div class="mx-auto flex flex-row max-w-6xl mb-6 mt-12 px-2">
@@ -68,5 +77,8 @@
     </section>
 
     <x-mid-section-pages></x-mid-section-pages>
-    <x-bottom-section-pages :bottomSectionTitle="$bottomSectionTitle" :bottomSectionText="$bottomSectionText" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"></x-bottom-section-pages>
+    <x-bottom-section-pages
+        :bottomSectionTitleEnglish="$bottomSectionTitleEnglish" :bottomSectionTextEnglish="$bottomSectionTextEnglish" :bottomSectionImage="$bottomSectionImage" :bottomSectionAlt="$bottomSectionAlt"
+        :bottomSectionTitleGerman="$bottomSectionTitleGerman" :bottomSectionTextGerman="$bottomSectionTextGerman"
+    ></x-bottom-section-pages>
 @endsection

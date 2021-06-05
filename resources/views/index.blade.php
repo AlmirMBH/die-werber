@@ -367,7 +367,7 @@
                     <img src="{{asset('img/workflow-planing.png')}}" alt="workflowresearch">
                 </div>
                 <h1 id="planning-title" class="text-bold text-lg" data-en="{{$index['en']['workflow-planning']}}"
-                    data-de="{{$index['de']['workflow-planning']}}"> {{$index['de']['workflow-planning']}} </h1>
+                    data-de="{{$index['de']['workflow-planning']}}">{{$index['de']['workflow-planning']}}</h1>
             </div>
 
             <div class="text-center text-white flex-1">
@@ -376,7 +376,7 @@
                     <img src="{{asset('img/workflow-implementing.png')}}" alt="workflowresearch">
                 </div>
                 <h1 id="implementation-title" class="text-bold text-lg" data-en="{{$index['en']['workflow-implementation']}}"
-                    data-de="{{$index['de']['workflow-implementation']}}"> {{$index['de']['workflow-implementation']}} </h1>
+                    data-de="{{$index['de']['workflow-implementation']}}">{{$index['de']['workflow-implementation']}}</h1>
             </div>
 
             <div class="text-center text-white flex-1">
@@ -385,16 +385,17 @@
                     <img src="{{asset('img/workflow-results.png')}}" alt="workflowresearch">
                 </div>
                 <h1 id="results-title" class="text-bold text-lg" data-en="{{$index['en']['workflow-results']}}"
-                    data-de="{{$index['de']['workflow-results']}}"> {{$index['de']['workflow-results']}} </h1>
+                    data-de="{{$index['de']['workflow-results']}}">{{$index['de']['workflow-results']}}</h1>
             </div>
         </div>
 
         <div class="mx-auto flex flex-row max-w-6xl justify-center mt-20">
             <div class="text-center text-white mb-10 md:w-2/4 mx-2 md:mx-0">
-                <p id="workflow-text" class="text-bold text-lg font-light text-justify">After determining your
-                    requirements, we undertake a creative and
-                    systematic, but often hectic and passionate research to increase the pool of knowledge about our
-                    task and your corporate culture, vision, mission and clients.</p>
+                <p id="workflow-text" class="text-bold text-lg font-light text-justify">
+                    {{-- other texts are at the bottom of this class --}}
+                    Nachdem wir Ihre Anforderungen ermittelt haben, betreiben wir eine kreative und systematische,
+                    aber oft hektische und leidenschaftliche Forschung, um den Wissenspool über unsere Aufgabe und
+                    Ihre Unternehmenskultur, Vision, Mission und Kunden zu erweitern.</p>
             </div>
         </div>
     </section>
@@ -402,13 +403,15 @@
     <section class="home-portfolio mt-16">
         <div class="mx-auto flex flex-row max-w-6xl justify-center">
             <div class="text-center mb-4">
-                <h1 class="text-4xl font-bold text-titleRed">Portfolio</h1>
+                <h1 class="text-4xl font-bold text-titleRed" data-en="{{$index['en']['portfolio-title']}}"
+                    data-de="{{$index['de']['portfolio-title']}}">{{$index['de']['portfolio-title']}}</h1>
             </div>
         </div>
         <section id="portfolio-web">
             <div class="mx-auto flex flex-row max-w-6xl justify-center">
                 <div class="text-center mt-14">
-                    <h1 class="text-3xl font-bold text-titleBlack">Web development</h1>
+                    <h1 class="text-3xl font-bold text-titleBlack" data-en="{{$index['en']['portfolio-web']}}"
+                        data-de="{{$index['de']['portfolio-web']}}">{{$index['de']['portfolio-web']}}</h1>
                 </div>
             </div>
             @php
@@ -419,7 +422,8 @@
         </section>
         <section id="portfolio-graphic-design">
             <div class="text-center mt-20">
-                <h1 class="text-3xl font-bold text-titleBlack">Graphic Design</h1>
+                <h1 class="text-3xl font-bold text-titleBlack" data-en="{{$index['en']['portfolio-graphic']}}"
+                    data-de="{{$index['de']['portfolio-graphic']}}">{{$index['de']['portfolio-graphic']}}</h1>
             </div>
             @php
                 $portfolioClassNamespace = "App\Helpers\Portfolio\Graphic";
@@ -429,7 +433,8 @@
         </section>
         <section id="portfolio-video">
             <div class="text-center mt-20">
-                <h1 class="text-3xl font-bold text-titleBlack">Animation Video</h1>
+                <h1 class="text-3xl font-bold text-titleBlack" data-en="{{$index['en']['portfolio-video']}}"
+                    data-de="{{$index['de']['portfolio-video']}}">{{$index['de']['portfolio-video']}}</h1>
             </div>
             @php
                 $portfolioClassNamespace = "App\Helpers\Portfolio\Video";
@@ -439,7 +444,8 @@
         </section>
         <section id="portfolio-video">
             <div class="text-center mt-20">
-                <h1 class="text-3xl font-bold text-titleBlack">Email Marketing</h1>
+                <h1 class="text-3xl font-bold text-titleBlack" data-en="{{$index['en']['portfolio-email']}}"
+                    data-de="{{$index['de']['portfolio-email']}}">{{$index['de']['portfolio-email']}}</h1>
             </div>
             @php
                 $portfolioClassNamespace = "App\Helpers\Portfolio\Email";
@@ -449,7 +455,8 @@
         </section>
         <section id="portfolio-video">
             <div class="text-center mt-20">
-                <h1 class="text-3xl font-bold text-titleBlack">Logo Design</h1>
+                <h1 class="text-3xl font-bold text-titleBlack" data-en="{{$index['en']['portfolio-logo']}}"
+                    data-de="{{$index['de']['portfolio-logo']}}">{{$index['de']['portfolio-logo']}}</h1>
             </div>
             @php
                 $portfolioClassNamespace = "App\Helpers\Portfolio\Logo";
@@ -461,12 +468,12 @@
 
     <script>
         let researchEnglish = "After determining your requirements, we undertake a creative and systematic, but often hectic and passionate research to increase the pool of knowledge about our task and your corporate culture, vision, mission and clients.";
-        let researchGerman = "Nachdem wir Ihre Anforderungen ermittelt haben, betreiben wir eine kreative und systematische, aber oft hektische und leidenschaftliche Forschung, um den Wissenspool über unsere Aufgabe und Ihre Unternehmenskultur, Vision, Mission und Kunden zu erweitern.";
         let planningEnglish = "As Benjamin Frankling once said „By failing to prepare, you are preparing to fail.“ We firmly believe that half of the project is already done after research and smart planing. Upon the analysis of your requirements, we develop a plan and start implementing it - the most exciting part.";
-        let planningGerman = "Wie Benjamin Frankling einmal sagte: „Wenn Sie sich nicht vorbereiten, bereiten Sie sich auf das Scheitern vor.“ Wir sind der festen Überzeugung, dass die Hälfte des Projekts bereits nach Recherche und klugem Planen abgeschlossen ist. Nach der Analyse Ihrer Anforderungen entwickeln wir einen Plan und beginnen mit dessen Umsetzung - der aufregendste Teil";
         let implementingEnglish = "Based on our research and in line with our plan, we tirelessly eat pizza, drink coke and play darts to stay focused on the task. The implementation often requires eye-opening sessions of brainstorming that keep us awake at night thinking about new ways of solving issues and securing our place among the elite designers and programmers – a bittersweet competition.";
-        let implementingGerman = "Basierend auf unseren Forschungen und gemäß unserem Plan essen wir unermüdlich Pizza, trinken Cola und spielen Darts, um uns auf die Aufgabe zu konzentrieren. Die Implementierung erfordert oftmals aufsehenerregende Brainstorming-Sitzungen, die uns nachts wach halten und über neue Wegenachdenken, um Probleme zu lösen und unseren Platz unter den Elite-Designern und Programmierern zu sichern - ein bittersüßer Wettbewerb";
         let resultsEnglish = "The best part of our work is when we see a smile on your face, and if it is not the best one you have, we can always offer to re-design it a bit. When you realize that your dreams came true, you will know that we always deliver what we promise but we do not guarantee that you will not ask for more of it.";
+        let researchGerman = "Nachdem wir Ihre Anforderungen ermittelt haben, betreiben wir eine kreative und systematische, aber oft hektische und leidenschaftliche Forschung, um den Wissenspool über unsere Aufgabe und Ihre Unternehmenskultur, Vision, Mission und Kunden zu erweitern.";
+        let planningGerman = "Wie Benjamin Frankling einmal sagte: „Wenn Sie sich nicht vorbereiten, bereiten Sie sich auf das Scheitern vor.“ Wir sind der festen Überzeugung, dass die Hälfte des Projekts bereits nach Recherche und klugem Planen abgeschlossen ist. Nach der Analyse Ihrer Anforderungen entwickeln wir einen Plan und beginnen mit dessen Umsetzung - der aufregendste Teil";
+        let implementingGerman = "Basierend auf unseren Forschungen und gemäß unserem Plan essen wir unermüdlich Pizza, trinken Cola und spielen Darts, um uns auf die Aufgabe zu konzentrieren. Die Implementierung erfordert oftmals aufsehenerregende Brainstorming-Sitzungen, die uns nachts wach halten und über neue Wegenachdenken, um Probleme zu lösen und unseren Platz unter den Elite-Designern und Programmierern zu sichern - ein bittersüßer Wettbewerb";
         let resultsGerman = "Der beste Teil unserer Arbeit ist, wenn wir ein Lächeln auf Ihrem Gesicht sehen, und wenn es nicht so ist, wie Sie es haben wollten, können wir Ihnen immer anbieten, es ein wenig um zugestalten. Wenn Sie erkennen, dass Ihre Träume wahr wurden, werden Sie sehen, dass wir immer halten, was wir versprechen, aber wir garantieren nicht, dass Sie nicht mehr verlangen werden";
 
         function changeText(obj) {
@@ -513,7 +520,7 @@
                 })
             } else if (icon === "results" && resultsTitle === "Ergebnisse") {
                 $("#workflow-text").fadeOut(700, function () {
-                    $("#workflow-text").html(resultsEnglish).fadeIn(700);
+                    $("#workflow-text").html(resultsGerman).fadeIn(700);
                 })
             }
         }
