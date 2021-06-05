@@ -2,13 +2,16 @@
 
 @section('title', 'Team')
 @section('content')
+    @php
+        $titleEnglish = "Our<span class='text-titleRed'> Team</span>";
+        $titleGerman = "Unser Team";
+    @endphp
 
     <section class="wide-silver-section mt-5 pt-16 md:pt-0 md:mt-5">
         <div class="mx-auto max-w-6xl flex-col md:flex-row py-8">
             <div class="flex justify-center py-4 wide-section-text">
-                <p class="text-5xl text-center font-bold leading-snug text-titleBlack px-2 md:px-0 md:w-1/2">
-                    Our<span class="text-titleRed"> Team</span>
-                </p>
+                <p class="text-5xl text-center font-bold leading-snug text-titleBlack px-2 md:px-0 md:w-1/2"
+                data-en="{{$titleEnglish}}" data-de="{{$titleGerman}}">{{$titleGerman}}</p>
             </div>
             <div class="flex justify-center mb-8 ">
                 <span class="line-under-section-title mb-10"></span>
